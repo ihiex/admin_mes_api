@@ -1,0 +1,23 @@
+# .gitignore
+.DS_Store
+node_modules
+dist
+.env.local
+.env.*.local
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+public/video
+public/static/software
+output
+.vscode
+*.zip
+*.7z
+

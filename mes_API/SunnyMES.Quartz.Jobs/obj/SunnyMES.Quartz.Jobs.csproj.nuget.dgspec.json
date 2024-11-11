@@ -1,38 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj": {}
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj": {}
   },
   "projects": {
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
       "version": "1.0.3.1",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj",
         "projectName": "SunnyMES.Email.Core",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
               }
             }
           }
@@ -41,6 +46,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,48 +78,53 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj": {
       "version": "1.1.5.10",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj",
         "projectName": "SunnyMES.Messages.Core",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj"
               },
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj"
               },
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj"
               },
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj"
               }
             }
           }
@@ -118,6 +133,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -139,31 +159,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
       "version": "1.3.2.5",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj",
         "projectName": "SunnyMES.Commons",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -176,6 +201,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -355,39 +385,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
       "version": "1.3.2.41",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj",
         "projectName": "SunnyMES.Security.Core",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
               }
             }
           }
@@ -396,6 +431,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -417,45 +457,50 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj": {
       "version": "1.0.3.1",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj",
         "projectName": "SunnyMES.Quartz.Jobs",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Quartz.Jobs\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Quartz.Jobs\\SunnyMES.Quartz.Jobs.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Quartz.Jobs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Email.Core\\SunnyMES.Email.Core.csproj"
               },
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.Messages\\SunnyMES.Messages.Core\\SunnyMES.Messages.Core.csproj"
               },
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Security.Core\\SunnyMES.Security.Core.csproj"
               }
             }
           }
@@ -464,6 +509,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -495,39 +545,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj": {
       "version": "1.0.3.1",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj",
         "projectName": "SunnyMES.SMS.Core",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.SMS.Core\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\SunnyMES.SMS.Core.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.SMS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
               }
             }
           }
@@ -536,6 +591,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -563,39 +623,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj": {
+    "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj": {
       "version": "1.1.1.11",
       "restore": {
-        "projectUniqueName": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj",
+        "projectUniqueName": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj",
         "projectName": "SunnyMES.WeChat.Core",
-        "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.WeChat.Core\\obj\\",
+        "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\SunnyMES.WeChat.Core.csproj",
+        "packagesPath": "C:\\Users\\Jason.zou\\.nuget\\packages\\",
+        "outputPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.WeChat.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jason.zou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
-                "projectPath": "D:\\Code\\VUE\\SFC_DB_API_+XiaoDong_SunnyMES\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
+              "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj": {
+                "projectPath": "D:\\admin\\admin_mes_api\\mes_API\\SunnyMES.NetCore\\SunnyMES.Commons\\SunnyMES.Commons.csproj"
               }
             }
           }
@@ -604,6 +669,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -663,7 +733,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

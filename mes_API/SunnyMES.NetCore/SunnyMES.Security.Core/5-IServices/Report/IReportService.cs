@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using SunnyMES.Commons.IServices;
-using SunnyMES.Email;
+//using SunnyMES.Email;
 using SunnyMES.Security.Dtos;
-using SunnyMES.Security.Dtos.Report;
+//using SunnyMES.Security.Dtos.Report;
 using SunnyMES.Security.Models;
 using SunnyMES.Security.Models.MES.SAP;
 
@@ -123,6 +123,6 @@ namespace SunnyMES.Security.IServices
         Task<IEnumerable<TabVal>> GetExportExcel_SapStockPro(int plant, string version, string material, SapDateType sapDateType);
 
         Task<List<dynamic>> GetAutoAnalysisAlarmDashboard();
-        string SendMail(AttachMailInputDto attachMailInputDto);
+        //string SendMail(AttachMailInputDto attachMailInputDto);
     }
 }

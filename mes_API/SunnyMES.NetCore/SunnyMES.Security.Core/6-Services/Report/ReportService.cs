@@ -5,8 +5,8 @@ using AutoMapper.Execution;
 using SunnyMES.Commons.Helpers;
 using SunnyMES.Commons.Log;
 using SunnyMES.Commons.Services;
-using SunnyMES.Email;
-using SunnyMES.Security.Dtos.Report;
+//using SunnyMES.Email;
+//using SunnyMES.Security.Dtos.Report;
 using SunnyMES.Security.IRepositories;
 using SunnyMES.Security.IServices;
 using SunnyMES.Security.Models;
@@ -306,38 +306,39 @@ namespace SunnyMES.Security.Services
             return await _repository.GetAutoAnalysisAlarmDashboard();
         }
 
-        public string SendMail(AttachMailInputDto attachMailInputDto)
+        //public string SendMail(AttachMailInputDto attachMailInputDto)
+        public string SendMail()
         {
             string result = string.Empty;
-            try
-            {
-                for (int i = 0; i < attachMailInputDto.FilePaths.Count; i++)
-                {
-                    var tmpMBE = attachMailInputDto.FilePaths[i];
-                    if (string.IsNullOrEmpty(tmpMBE) || !File.Exists(tmpMBE))
-                        return result = "请检查文件是否存在 " + tmpMBE;
-                }
-                string sql = $@"SET ROWCOUNT 0 
-                                EXEC msdb.dbo.sp_send_dbmail
-                                @profile_name = '{attachMailInputDto.ProfileName}',
-                                @recipients = '{string.Join(';', attachMailInputDto.Recipients)}',
-                                @body = '{attachMailInputDto.Body}',
-                                @file_attachments = '{string.Join(';',attachMailInputDto.FilePaths)}',
-                                @subject = '{attachMailInputDto.Subject}'";
-                int aff = SqlSugarHelper.Db.Ado.ExecuteCommand(sql);
-                if (!string.IsNullOrEmpty(attachMailInputDto.MovePath)) {
-                    for (int i = 0; i < attachMailInputDto.FilePaths.Count; i++)
-                    {
-                        var tmpMBE = attachMailInputDto.FilePaths[i];
-                        FileHelper.MoveFile(tmpMBE, attachMailInputDto.MovePath, true);
-                    }
-                }
-            }
-            catch (System.Exception ex)
-            {
-                Log4NetHelper.Error(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType, "process error", ex);
-                result = ex.Message;
-            }
+            //try
+            //{
+            //    for (int i = 0; i < attachMailInputDto.FilePaths.Count; i++)
+            //    {
+            //        var tmpMBE = attachMailInputDto.FilePaths[i];
+            //        if (string.IsNullOrEmpty(tmpMBE) || !File.Exists(tmpMBE))
+            //            return result = "请检查文件是否存在 " + tmpMBE;
+            //    }
+            //    string sql = $@"SET ROWCOUNT 0 
+            //                    EXEC msdb.dbo.sp_send_dbmail
+            //                    @profile_name = '{attachMailInputDto.ProfileName}',
+            //                    @recipients = '{string.Join(';', attachMailInputDto.Recipients)}',
+            //                    @body = '{attachMailInputDto.Body}',
+            //                    @file_attachments = '{string.Join(';',attachMailInputDto.FilePaths)}',
+            //                    @subject = '{attachMailInputDto.Subject}'";
+            //    int aff = SqlSugarHelper.Db.Ado.ExecuteCommand(sql);
+            //    if (!string.IsNullOrEmpty(attachMailInputDto.MovePath)) {
+            //        for (int i = 0; i < attachMailInputDto.FilePaths.Count; i++)
+            //        {
+            //            var tmpMBE = attachMailInputDto.FilePaths[i];
+            //            FileHelper.MoveFile(tmpMBE, attachMailInputDto.MovePath, true);
+            //        }
+            //    }
+            //}
+            //catch (System.Exception ex)
+            //{
+            //    Log4NetHelper.Error(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType, "process error", ex);
+            //    result = ex.Message;
+            //}
             return result;
         }
 
