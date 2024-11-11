@@ -1,0 +1,131 @@
+【11:19:35.179】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method368(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 53
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method363(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:28:20.981】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method368(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 53
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method363(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:45:50.368】  Error T11 
+抛出信息：验证token异常 SecurityTokenExpiredException 
+异常类型：SecurityTokenExpiredException 
+异常信息：IDX10223: Lifetime validation failed. The token is expired. ValidTo: '2022-04-02 05:26:07', Current time: '2022-04-02 05:45:50'. 
+堆栈调用：
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 107
+【13:59:48.063】  Error T17 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【14:00:19.830】  Error T10 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【14:00:52.891】  Error T10 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【16:16:22.857】  Error T9 
+抛出信息：验证token异常 SecurityTokenExpiredException 
+异常类型：SecurityTokenExpiredException 
+异常信息：IDX10223: Lifetime validation failed. The token is expired. ValidTo: '2022-04-02 08:08:03', Current time: '2022-04-02 08:16:22'. 
+堆栈调用：
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 107
+【17:40:26.362】  Error T13 
+抛出信息： 
+异常类型：AggregateException 
+异常信息：One or more errors occurred. (The client reset the request stream.) 
+堆栈调用：
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Yuebon.Commons.Helpers.SignHelper.CheckSign(HttpContext httpContext) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Helpers\SignHelper.cs:line 84
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 95
+【17:40:26.388】  Error T30 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method31(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:19:32.512】  Error T3 
+抛出信息：全局捕获程序运行异常信息
+/api/Token?appid=system&secret=87135AB0160F706D8B47F06BDABA6FC6 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.TokenController.Get(String grant_type, String appid, String secret) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\TokenController.cs:line 62
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

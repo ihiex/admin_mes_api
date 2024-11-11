@@ -1,0 +1,48 @@
+【15:42:06.810】  Error T29 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:42:21.540】  Error T48 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:42:54.132】  Error T48 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:43:04.327】  Error T29 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:43:05.502】  Error T29 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:43:56.257】  Error T182 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:46:30.540】  Error T29 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101
+【15:47:04.428】  Error T155 
+抛出信息：验证token异常 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 101

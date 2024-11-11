@@ -1,0 +1,6 @@
+before-----
+{"ID":"2166","SNFormatID":"2","SectionParam":"nnn","Increment":"2","InvalidChar":"2","LastUsed":"2","Order":"6","AllowReset":false}
+{"ID":"1285","SNSectionID":"2166","Start":"000","End":"ZZZ","StatusID":"0"}
+after-----
+{"ID":"2166","SNFormatID":"2","SectionTypeID":"4","SectionParam":"nnn","Increment":"3","InvalidChar":"3","LastUsed":"3","Order":"6","AllowReset":false,"v_mesSNRange":{"ID":"1285","SNSectionID":"2","Start":"000","End":"888","StatusID":"0"}}
+{"ID":"1285","SNSectionID":"2","Start":"000","End":"888","StatusID":"0"}

@@ -1,0 +1,4 @@
+before-----
+{"ID":245,"LineID":85,"LineTypeDefID":3,"Content":"111411111"}
+after-----
+{"ID":245,"LineID":85,"LineTypeDefID":3,"LineTypeDefValue":"PartFamilyID","Content":"111411111"}

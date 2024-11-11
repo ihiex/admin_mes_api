@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Yuebon.Commons</id>
+    <version>1.3.2.5</version>
+    <authors>Yuebon</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://gitee.com/yuebon/YuebonNetCore</projectUrl>
+    <description>YuebonNetCore开发框架基础库</description>
+    <copyright>上海越邦网络科技有限公司 版权所有</copyright>
+    <repository url="https://gitee.com/yuebon/YuebonNetCore" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AutoMapper" version="12.0.1" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper.Extensions.Microsoft.DependencyInjection" version="12.0.1" exclude="Build,Analyzers" />
+        <dependency id="CSRedisCore" version="3.6.8" exclude="Build,Analyzers" />
+        <dependency id="Dapper.StrongName" version="2.0.123" exclude="Build,Analyzers" />
+        <dependency id="DotNetCore.NPOI" version="1.2.3" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.42" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.StackExchangeRedis" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyModel" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="MiniProfiler.AspNetCore" version="4.2.22" exclude="Build,Analyzers" />
+        <dependency id="MiniProfiler.AspNetCore.Mvc" version="4.2.22" exclude="Build,Analyzers" />
+        <dependency id="MiniProfiler.EntityFrameworkCore" version="4.2.22" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="8.0.28" exclude="Build,Analyzers" />
+        <dependency id="NPinyin.Core" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="6.0.3" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL" version="6.0.3" exclude="Build,Analyzers" />
+        <dependency id="Oracle.EntityFrameworkCore" version="6.21.5" exclude="Build,Analyzers" />
+        <dependency id="Oracle.ManagedDataAccess.Core" version="3.21.50" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="QRCoder" version="1.4.3" exclude="Build,Analyzers" />
+        <dependency id="Quartz" version="3.3.3" exclude="Build,Analyzers" />
+        <dependency id="SgmlReader.NetCore" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="SqlSugarCore" version="5.1.4.83" exclude="Build,Analyzers" />
+        <dependency id="System.Data.OleDb" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite" version="1.0.118" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Caching" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.14" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\bin\Debug\net6.0\Yuebon.Commons.runtimeconfig.json" target="lib\net6.0\Yuebon.Commons.runtimeconfig.json" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\bin\Debug\net6.0\Yuebon.Commons.dll" target="lib\net6.0\Yuebon.Commons.dll" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\bin\Debug\net6.0\Yuebon.Commons.xml" target="lib\net6.0\Yuebon.Commons.xml" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\LICENSE" target="LICENSE" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\logo.png" target="logo.png" />
+  </files>
+</package>

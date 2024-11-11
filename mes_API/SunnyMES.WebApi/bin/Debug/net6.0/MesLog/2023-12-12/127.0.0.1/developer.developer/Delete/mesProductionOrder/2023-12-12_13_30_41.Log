@@ -1,0 +1,30 @@
+{
+  "ID": 1501,
+  "ProductionOrderNumber": "22222",
+  "Description": null,
+  "PartID": 282,
+  "OrderQuantity": 10,
+  "EmployeeID": null,
+  "CreationTime": "2023-12-12 13:30:05",
+  "LastUpdate": null,
+  "StatusID": 1,
+  "RequestedStartTime": null,
+  "ActualStartTime": null,
+  "RequestedFinishTime": null,
+  "ActualFinishTime": null,
+  "ShippedTime": null,
+  "UOM": null,
+  "PriorityByERP": null,
+  "IsLotAuditCompleted": null,
+  "PartFamilyID": 0,
+  "PartFamilyTypeID": 0,
+  "PartNumber": null,
+  "StatusDesc": null,
+  "productionOrderDetails": [],
+  "productionOrderLines": [],
+  "EmployeeName": null
+}
+[
+  [],
+  []
+]

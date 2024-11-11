@@ -1,0 +1,18 @@
+Connected to smtps://smtp.exmail.qq.com:465/
+S: 220 smtp.qq.com Esmtp QQ QMail Server
+C: EHLO VS2021
+S: 250-smtp.qq.com
+S: 250-PIPELINING
+S: 250-SIZE 73400320
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN
+S: 250-MAILCOMPRESS
+S: 250 8BITMIME
+C: AUTH PLAIN ********
+S: 235 Authentication successful
+C: MAIL FROM:<cqinwn@yuebon.com> SIZE=692 BODY=8BITMIME
+C: RCPT TO:<DzTgXXxaXxCpfLcm0xWO7ti9dJRQQ4e+>
+S: 250 Ok
+S: 501 Bad address syntax
+C: RSET
+S: 250 Ok

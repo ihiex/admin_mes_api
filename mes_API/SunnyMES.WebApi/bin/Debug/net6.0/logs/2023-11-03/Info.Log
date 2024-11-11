@@ -1,0 +1,42 @@
+[09:05:44] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:05:45] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:05:45] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:12:03] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:12:03] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:12:03] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:16:42] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:16:43] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:16:43] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:21:06] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:21:06] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:21:06] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[14:16:09] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[14:16:10] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[14:16:10] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[15:03:20] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[15:03:20] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[15:03:20] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[15:09:56] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[15:09:56] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[15:09:56] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.

@@ -1,0 +1,48 @@
+[09:04:17] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:04:17] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:04:17] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:13:01] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:13:02] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:13:02] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:18:40] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:18:40] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:18:40] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:22:00] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:22:00] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:22:00] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:28:41] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:28:41] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:28:41] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:41:01] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:41:02] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:41:02] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[14:54:00] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[14:54:00] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[14:54:00] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Could not load file or assembly 'SunnyMES.Quartz.Jobs, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+[14:58:25] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[14:58:25] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[14:58:25] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Could not load file or assembly 'SunnyMES.Quartz.Jobs, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
