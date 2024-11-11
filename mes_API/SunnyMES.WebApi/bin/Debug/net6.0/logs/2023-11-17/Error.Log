@@ -1,0 +1,87 @@
+【08:51:29.445】  Error T37 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/Role/Clone 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Areas.Security.Controllers.RoleController.Clone(Role entity) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\RoleController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【08:58:41.850】  Error T33 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554
+【09:36:04.283】  Error T32 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554
+【10:05:23.987】  Error T22 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026852237799)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026853658804)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026855098187)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026856413610)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026857981313)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026859889030)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026861022372)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026862569075)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026864081924)。
+违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026864119495)。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554

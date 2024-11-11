@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SunnyMES.Tenants.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SunnyMES.Tenants.Dtos.TenantInputDto">
+            <summary>
+            租户输入对象模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.Id">
+            <summary>
+            设置或获取 
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.TenantName">
+            <summary>
+            设置或获取租户名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.CompanyName">
+            <summary>
+            设置或获取公司名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.HostDomain">
+            <summary>
+            设置或获取访问域名
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.LinkMan">
+            <summary>
+            设置或获取联系人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.Telphone">
+            <summary>
+            设置或获取联系电话
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.DataSource">
+            <summary>
+            设置或获取数据源，分库使用
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.Description">
+            <summary>
+            设置或获取租户介绍
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantInputDto.EnabledMark">
+            <summary>
+            设置或获取是否可用
+            </summary>
+        </member>
+        <member name="T:SunnyMES.Tenants.Dtos.TenantOutputDto">
+            <summary>
+            租户输出对象模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.Id">
+            <summary>
+            设置或获取 
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.TenantName">
+            <summary>
+            设置或获取租户名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.CompanyName">
+            <summary>
+            设置或获取公司名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.HostDomain">
+            <summary>
+            设置或获取访问域名
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.LinkMan">
+            <summary>
+            设置或获取联系人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.Telphone">
+            <summary>
+            设置或获取联系电话
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.DataSource">
+            <summary>
+            设置或获取数据源，分库使用
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.Description">
+            <summary>
+            设置或获取租户介绍
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.EnabledMark">
+            <summary>
+            设置或获取是否可用
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.DeleteMark">
+            <summary>
+            设置或获取删除标记
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.CreatorTime">
+            <summary>
+            设置或获取创建时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.CreatorUserId">
+            <summary>
+            设置或获取创建人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.CompanyId">
+            <summary>
+            设置或获取创建人组织
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.DeptId">
+            <summary>
+            设置或获取部门
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.LastModifyTime">
+            <summary>
+            设置或获取修改时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.LastModifyUserId">
+            <summary>
+            设置或获取修改人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.DeleteTime">
+            <summary>
+            设置或获取删除时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Dtos.TenantOutputDto.DeleteUserId">
+            <summary>
+            设置或获取删除人
+            </summary>
+        </member>
+        <member name="T:SunnyMES.Tenants.IRepositories.ITenantRepository">
+            <summary>
+            定义租户仓储接口
+            </summary>
+        </member>
+        <member name="T:SunnyMES.Tenants.IServices.ITenantService">
+            <summary>
+            定义租户服务接口
+            </summary>
+        </member>
+        <member name="T:SunnyMES.Tenants.Models.Tenant">
+            <summary>
+            租户，数据实体对象
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.Id">
+            <summary>
+            设置或获取 
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.TenantName">
+            <summary>
+            设置或获取租户名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.CompanyName">
+            <summary>
+            设置或获取公司名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.HostDomain">
+            <summary>
+            设置或获取访问域名
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.LinkMan">
+            <summary>
+            设置或获取联系人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.Telphone">
+            <summary>
+            设置或获取联系电话
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.DataSource">
+            <summary>
+            设置或获取数据源，分库使用
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.Description">
+            <summary>
+            设置或获取租户介绍
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.EnabledMark">
+            <summary>
+            设置或获取是否可用
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.DeleteMark">
+            <summary>
+            设置或获取删除标记
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.CreatorTime">
+            <summary>
+            设置或获取创建时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.CreatorUserId">
+            <summary>
+            设置或获取创建人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.CompanyId">
+            <summary>
+            设置或获取创建人组织
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.DeptId">
+            <summary>
+            设置或获取部门
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.LastModifyTime">
+            <summary>
+            设置或获取修改时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.LastModifyUserId">
+            <summary>
+            设置或获取修改人
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.DeleteTime">
+            <summary>
+            设置或获取删除时间
+            </summary>
+        </member>
+        <member name="P:SunnyMES.Tenants.Models.Tenant.DeleteUserId">
+            <summary>
+            设置或获取删除人
+            </summary>
+        </member>
+        <member name="T:SunnyMES.Tenants.Repositories.TenantRepository">
+            <summary>
+            租户仓储接口的实现
+            </summary>
+        </member>
+        <member name="M:SunnyMES.Tenants.Repositories.TenantRepository.#ctor(SunnyMES.Commons.IDbContext.IDbContextCore)">
+            <summary>
+            注入EF上下文
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:SunnyMES.Tenants.Services.TenantService">
+            <summary>
+            租户服务接口实现
+            </summary>
+        </member>
+        <member name="M:SunnyMES.Tenants.Services.TenantService.FindWithPagerAsync(SunnyMES.Commons.Dtos.SearchInputDto{SunnyMES.Tenants.Models.Tenant})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            </summary>
+            <param name="search">查询的条件</param>
+            <returns>指定对象的集合</returns>
+        </member>
+    </members>
+</doc>

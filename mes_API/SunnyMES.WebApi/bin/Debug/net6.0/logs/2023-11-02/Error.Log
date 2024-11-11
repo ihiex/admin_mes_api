@@ -1,0 +1,86 @@
+【10:30:22.417】  Error T43 
+抛出信息：获取 GetmesSNFormat 异常 
+异常类型：TaskCanceledException 
+异常信息：A task was canceled. 
+堆栈调用：
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicSCRepository.GetIdNameDescription(String TableName, String ID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 70
+   at Yuebon.Security.Services.PublicSCService.GetIdNameDescription(String TableName, String ID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 38
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetmesSNFormat() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 753
+【10:30:22.417】  Error T45 
+抛出信息：获取 GetSectionType 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is connecting. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicSCRepository.GetSectionType() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 275
+   at Yuebon.Security.Services.PublicSCService.GetSectionType() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 113
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetSectionType() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 1169
+【14:19:15.278】  Error T33 
+抛出信息：获取 List_SNRange 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 76
+   at Yuebon.Security.Services.SC_mesSNFormatService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.List_SNRange(String ParentId) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 668
+【14:19:58.209】  Error T8 
+抛出信息：获取 List_SNRange 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 76
+   at Yuebon.Security.Services.SC_mesSNFormatService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.List_SNRange(String ParentId) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 668
+【17:05:32.084】  Error T22 
+抛出信息：获取 mesLabel FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列前缀 'AA' 与查询中使用的表名或别名不匹配。
+没有为 'AA' 的列 1 指定任何列名称。
+列前缀 'A' 与查询中使用的表名或别名不匹配。
+无法绑定由多个部分组成的标识符 "B.Name"。
+无法绑定由多个部分组成的标识符 "C.LabelTypeName"。
+无法绑定由多个部分组成的标识符 "D.OutputTypeName"。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 418
+ClientConnectionId:1caa8942-3347-4db7-8c4b-04abcd1fd2ad
+Error Number:107,State:1,Class:15 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 476
+   at Yuebon.Security.Services.SC_mesLabelService.FindWithPagerSearchAsync(SC_mesLabelSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String LabelFamilyID, String LabelFamily, String LabelType, String LabelTypeName, String TargetPath, String OutputType, String OutputTypeName, String PrintCMD, String SourcePath, String PageCapacity, String LabelFieldDefName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 343
+【18:00:11.044】  Error T46 
+抛出信息：获取 GetCom_h 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is open. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicSCRepository.GetCom_h() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 392
+   at Yuebon.Security.Services.PublicSCService.GetCom_h() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 142
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetCom_h() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 1335

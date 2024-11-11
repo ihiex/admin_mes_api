@@ -1,0 +1,254 @@
+[08:27:04.398] Debug T9： 方法名称：MoveNext
+日志内容：{
+  "Actor": null,
+  "Audiences": [
+    "system"
+  ],
+  "Claims": [
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "aud",
+      "Value": "system",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iss",
+      "Value": "YuebonTeach",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "name",
+      "Value": "developer",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "id",
+      "Value": "1",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "role",
+      "Value": "administrators,",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "sub",
+      "Value": "password",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "nbf",
+      "Value": "1698127048",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "exp",
+      "Value": "1698731848",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iat",
+      "Value": "1698127048",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  ],
+  "EncodedHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "EncodedPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxMjcwNDgsImV4cCI6MTY5ODczMTg0OCwiaWF0IjoxNjk4MTI3MDQ4fQ",
+  "Header": {
+    "alg": "HS256",
+    "typ": "JWT"
+  },
+  "Id": null,
+  "Issuer": "YuebonTeach",
+  "Payload": {
+    "aud": "system",
+    "iss": "YuebonTeach",
+    "name": "developer",
+    "id": "1",
+    "role": "administrators,",
+    "sub": "password",
+    "nbf": 1698127048,
+    "exp": 1698731848,
+    "iat": 1698127048
+  },
+  "InnerToken": null,
+  "RawAuthenticationTag": null,
+  "RawCiphertext": null,
+  "RawData": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxMjcwNDgsImV4cCI6MTY5ODczMTg0OCwiaWF0IjoxNjk4MTI3MDQ4fQ.dNhiC32ho6cUzk61el4SbFM5E2GLwc7t2Lhtn4FwGcw",
+  "RawEncryptedKey": null,
+  "RawInitializationVector": null,
+  "RawHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "RawPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxMjcwNDgsImV4cCI6MTY5ODczMTg0OCwiaWF0IjoxNjk4MTI3MDQ4fQ",
+  "RawSignature": "dNhiC32ho6cUzk61el4SbFM5E2GLwc7t2Lhtn4FwGcw",
+  "SecurityKey": null,
+  "SignatureAlgorithm": "HS256",
+  "SigningCredentials": null,
+  "EncryptingCredentials": null,
+  "SigningKey": null,
+  "Subject": "password",
+  "ValidFrom": "2023-10-24 05:57:28",
+  "ValidTo": "2023-10-31 05:57:28",
+  "IssuedAt": "2023-10-24 05:57:28"
+}
+[08:28:17.787] Debug T37： 方法名称：MoveNext
+日志内容：{
+  "Actor": null,
+  "Audiences": [
+    "system"
+  ],
+  "Claims": [
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "aud",
+      "Value": "system",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iss",
+      "Value": "YuebonTeach",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "name",
+      "Value": "developer",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "id",
+      "Value": "1",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "role",
+      "Value": "administrators,",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "sub",
+      "Value": "password",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "nbf",
+      "Value": "1698193661",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "exp",
+      "Value": "1698798461",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iat",
+      "Value": "1698193661",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  ],
+  "EncodedHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "EncodedPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxOTM2NjEsImV4cCI6MTY5ODc5ODQ2MSwiaWF0IjoxNjk4MTkzNjYxfQ",
+  "Header": {
+    "alg": "HS256",
+    "typ": "JWT"
+  },
+  "Id": null,
+  "Issuer": "YuebonTeach",
+  "Payload": {
+    "aud": "system",
+    "iss": "YuebonTeach",
+    "name": "developer",
+    "id": "1",
+    "role": "administrators,",
+    "sub": "password",
+    "nbf": 1698193661,
+    "exp": 1698798461,
+    "iat": 1698193661
+  },
+  "InnerToken": null,
+  "RawAuthenticationTag": null,
+  "RawCiphertext": null,
+  "RawData": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxOTM2NjEsImV4cCI6MTY5ODc5ODQ2MSwiaWF0IjoxNjk4MTkzNjYxfQ.jmkAOJItHt2YXKeMooWl3AWSQQ7ZAieXQcFGPKdy-OU",
+  "RawEncryptedKey": null,
+  "RawInitializationVector": null,
+  "RawHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "RawPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE2OTgxOTM2NjEsImV4cCI6MTY5ODc5ODQ2MSwiaWF0IjoxNjk4MTkzNjYxfQ",
+  "RawSignature": "jmkAOJItHt2YXKeMooWl3AWSQQ7ZAieXQcFGPKdy-OU",
+  "SecurityKey": null,
+  "SignatureAlgorithm": "HS256",
+  "SigningCredentials": null,
+  "EncryptingCredentials": null,
+  "SigningKey": null,
+  "Subject": "password",
+  "ValidFrom": "2023-10-25 00:27:41",
+  "ValidTo": "2023-11-01 00:27:41",
+  "IssuedAt": "2023-10-25 00:27:41"
+}

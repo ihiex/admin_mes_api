@@ -1,0 +1,4 @@
+before-----
+{"ID":"147","Name":"AAAAAA","Description":"BBBB","LabelFamilyID":"2","LabelType":"1","TargetPath":"","OutputType":"1","PrintCMD":"","SourcePath":"","PageCapacity":"1"}
+after-----
+{"ID":"147","Name":"AAAAAA11111","Description":"BBBB33333","LabelFamilyID":"2","LabelType":"1","TargetPath":"","OutputType":"1","PrintCMD":"","SourcePath":"","PageCapacity":"1"}

@@ -1,0 +1,11 @@
+【09:42:01.179】  Error T5 
+抛出信息：获取 SaveXMLRouteV2 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesRouteRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Route\SC_mesRouteRepositories.cs:line 75
+   at Yuebon.Security.Services.SC_mesRouteService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Route\SC_mesRouteService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesRouteController.SaveXMLRouteV2(String Id, String XMLRouteV2) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Route\SC_mesRouteController.cs:line 332

@@ -1,0 +1,24 @@
+[09:00:16] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:00:16] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:00:16] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:15:01] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:15:01] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:15:01] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[09:16:59] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[09:16:59] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[09:16:59] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.
+[10:51:51] (Info) 方法名称：MoveNext
+日志内容：开始启动定时任务
+[10:51:51] (Info) 方法名称：MoveNext
+日志内容：启动定时任务testTaskName
+[10:51:51] (Info) 方法名称：MoveNext
+日志内容：启动定时任务异常Job class cannot be null.

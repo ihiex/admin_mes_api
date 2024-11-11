@@ -1,0 +1,97 @@
+[09:14:05.770] Debug T39： 方法名称：MoveNext
+日志内容：{
+  "Actor": null,
+  "Audiences": [
+    "system"
+  ],
+  "Claims": [
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "aud",
+      "Value": "system",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iss",
+      "Value": "YuebonTeach",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "sub",
+      "Value": "client_credential",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "nbf",
+      "Value": "1648775617",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "exp",
+      "Value": "1648782817",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iat",
+      "Value": "1648775617",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  ],
+  "EncodedHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "EncodedPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsInN1YiI6ImNsaWVudF9jcmVkZW50aWFsIiwibmJmIjoxNjQ4Nzc1NjE3LCJleHAiOjE2NDg3ODI4MTcsImlhdCI6MTY0ODc3NTYxN30",
+  "Header": {
+    "alg": "HS256",
+    "typ": "JWT"
+  },
+  "Id": null,
+  "Issuer": "YuebonTeach",
+  "Payload": {
+    "aud": "system",
+    "iss": "YuebonTeach",
+    "sub": "client_credential",
+    "nbf": 1648775617,
+    "exp": 1648782817,
+    "iat": 1648775617
+  },
+  "InnerToken": null,
+  "RawAuthenticationTag": null,
+  "RawCiphertext": null,
+  "RawData": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsInN1YiI6ImNsaWVudF9jcmVkZW50aWFsIiwibmJmIjoxNjQ4Nzc1NjE3LCJleHAiOjE2NDg3ODI4MTcsImlhdCI6MTY0ODc3NTYxN30.YeLiCofdRZSnTKcJz2ld4G1Fe0Bd58LWhAVs6_8BF5o",
+  "RawEncryptedKey": null,
+  "RawInitializationVector": null,
+  "RawHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "RawPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsInN1YiI6ImNsaWVudF9jcmVkZW50aWFsIiwibmJmIjoxNjQ4Nzc1NjE3LCJleHAiOjE2NDg3ODI4MTcsImlhdCI6MTY0ODc3NTYxN30",
+  "RawSignature": "YeLiCofdRZSnTKcJz2ld4G1Fe0Bd58LWhAVs6_8BF5o",
+  "SecurityKey": null,
+  "SignatureAlgorithm": "HS256",
+  "SigningCredentials": null,
+  "EncryptingCredentials": null,
+  "SigningKey": null,
+  "Subject": "client_credential",
+  "ValidFrom": "2022-04-01 01:13:37",
+  "ValidTo": "2022-04-01 03:13:37",
+  "IssuedAt": "2022-04-01 01:13:37"
+}

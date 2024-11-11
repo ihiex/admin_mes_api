@@ -1,0 +1,144 @@
+【13:58:14.092】  Error T22 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Insert 
+异常类型：DbUpdateException 
+异常信息：An error occurred while saving the entity changes. See the inner exception for details. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Yuebon.Security.Repositories.UserRepository.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\System\UserRepository.cs:line 196
+   at Yuebon.Security.Services.UserService.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 338
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.InsertAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 203
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:00:13.077】  Error T44 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Insert 
+异常类型：DbUpdateException 
+异常信息：An error occurred while saving the entity changes. See the inner exception for details. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Yuebon.Security.Repositories.UserRepository.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\System\UserRepository.cs:line 196
+   at Yuebon.Security.Services.UserService.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 338
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.InsertAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 203
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:40:07.523】  Error T22 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Insert 
+异常类型：DbUpdateException 
+异常信息：An error occurred while saving the entity changes. See the inner exception for details. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Yuebon.Security.Repositories.UserRepository.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\System\UserRepository.cs:line 196
+   at Yuebon.Security.Services.UserService.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 338
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.InsertAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 203
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:40:31.146】  Error T31 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Insert 
+异常类型：DbUpdateException 
+异常信息：An error occurred while saving the entity changes. See the inner exception for details. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Yuebon.Security.Repositories.UserRepository.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\System\UserRepository.cs:line 196
+   at Yuebon.Security.Services.UserService.InsertAsync(User entity, UserLogOn userLogOnEntity, IDbTransaction trans) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 338
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.InsertAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 203
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:18:32.194】  Error T8 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'RouteTypeValue' 无效。
+ntext 数据类型不能选为 DISTINCT，因为它不可比。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesRouteRepository.FindWithPagerMyAsync(SC_mesRouteSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Route\SC_mesRouteRepositories.cs:line 325
+ClientConnectionId:d152d5a3-c68d-441d-aa0b-b0c7ef3658d0
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesRouteRepository.FindWithPagerMyAsync(SC_mesRouteSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Route\SC_mesRouteRepositories.cs:line 340
+   at Yuebon.Security.Services.SC_mesRouteService.FindWithPagerMyAsync(SC_mesRouteSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Route\SC_mesRouteService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesRouteController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String RouteType, String RouteTypeValue) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Route\SC_mesRouteController.cs:line 316
+【16:23:09.706】  Error T8 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'RouteTypeValue' 无效。
+ntext 数据类型不能选为 DISTINCT，因为它不可比。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesRouteRepository.FindWithPagerMyAsync(SC_mesRouteSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Route\SC_mesRouteRepositories.cs:line 325
+ClientConnectionId:d152d5a3-c68d-441d-aa0b-b0c7ef3658d0
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesRouteRepository.FindWithPagerMyAsync(SC_mesRouteSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Route\SC_mesRouteRepositories.cs:line 340
+   at Yuebon.Security.Services.SC_mesRouteService.FindWithPagerMyAsync(SC_mesRouteSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Route\SC_mesRouteService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesRouteController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String RouteType, String RouteTypeValue) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Route\SC_mesRouteController.cs:line 316

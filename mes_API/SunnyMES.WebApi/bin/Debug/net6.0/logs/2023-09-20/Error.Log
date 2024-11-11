@@ -1,0 +1,177 @@
+【10:01:44.490】  Error T43 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=10&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:03:06.785】  Error T43 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=10&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:03:58.858】  Error T43 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/GetPageInitialize?api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method26(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:05:04.244】  Error T39 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=10&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:16:58.523】  Error T8 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=100&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:17:18.217】  Error T5 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=100&LikeQuery=mm&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:20:02.909】  Error T5 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=100&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:20:32.995】  Error T5 
+抛出信息：全局捕获程序运行异常信息
+/api/SysConfig/SC_mesStationType/FindWithPagerSearchAsync?CurrentPageIndex=1&PageSize=100&api-version=3.0 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.ISC_ImesStationTypeService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method18(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:59:43.455】  Error T34 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Insert(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 95
+【11:03:17.653】  Error T8 
+抛出信息：获取 Update 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Update(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 190
+【11:04:59.845】  Error T5 
+抛出信息：获取 Update 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Update(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 190
+【11:11:00.500】  Error T8 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'LineTypeDefID' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.FindWithPagerMyAsync(SC_mesStationTypeSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 393
+ClientConnectionId:8ff6ee86-e760-4aaf-adbe-eca1920649bb
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.FindWithPagerMyAsync(SC_mesStationTypeSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 411
+   at Yuebon.Security.Services.SC_mesStationTypeService.FindWithPagerSearchAsync(SC_mesStationTypeSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Description, String ApplicationTypeID, String ApplicationType, String StationTypeDetailDefID, String StationTypeDetailDef, String Content, String DetailDescription) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 322
+【11:24:51.914】  Error T22 
+抛出信息：获取 InsertDetail 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.InsertDetail(String ParentId, SC_mesStationTypeDetail v_Detail) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 366

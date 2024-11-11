@@ -1,0 +1,127 @@
+[09:14:50.312] Debug T14： 方法名称：MoveNext
+日志内容：{
+  "Actor": null,
+  "Audiences": [
+    "system"
+  ],
+  "Claims": [
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "aud",
+      "Value": "system",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iss",
+      "Value": "YuebonTeach",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "name",
+      "Value": "admin",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "id",
+      "Value": "9f2ec079-7d0f-4fe2-90ab-8b09a8302aba",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "role",
+      "Value": "administrators,",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "sub",
+      "Value": "password",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "nbf",
+      "Value": "1649916862",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "exp",
+      "Value": "1649952862",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "Issuer": "YuebonTeach",
+      "OriginalIssuer": "YuebonTeach",
+      "Properties": {},
+      "Subject": null,
+      "Type": "iat",
+      "Value": "1649916862",
+      "ValueType": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  ],
+  "EncodedHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "EncodedPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJhZG1pbiIsImlkIjoiOWYyZWMwNzktN2QwZi00ZmUyLTkwYWItOGIwOWE4MzAyYWJhIiwicm9sZSI6ImFkbWluaXN0cmF0b3JzLCIsInN1YiI6InBhc3N3b3JkIiwibmJmIjoxNjQ5OTE2ODYyLCJleHAiOjE2NDk5NTI4NjIsImlhdCI6MTY0OTkxNjg2Mn0",
+  "Header": {
+    "alg": "HS256",
+    "typ": "JWT"
+  },
+  "Id": null,
+  "Issuer": "YuebonTeach",
+  "Payload": {
+    "aud": "system",
+    "iss": "YuebonTeach",
+    "name": "admin",
+    "id": "9f2ec079-7d0f-4fe2-90ab-8b09a8302aba",
+    "role": "administrators,",
+    "sub": "password",
+    "nbf": 1649916862,
+    "exp": 1649952862,
+    "iat": 1649916862
+  },
+  "InnerToken": null,
+  "RawAuthenticationTag": null,
+  "RawCiphertext": null,
+  "RawData": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJhZG1pbiIsImlkIjoiOWYyZWMwNzktN2QwZi00ZmUyLTkwYWItOGIwOWE4MzAyYWJhIiwicm9sZSI6ImFkbWluaXN0cmF0b3JzLCIsInN1YiI6InBhc3N3b3JkIiwibmJmIjoxNjQ5OTE2ODYyLCJleHAiOjE2NDk5NTI4NjIsImlhdCI6MTY0OTkxNjg2Mn0.EzX3oTmWI5iVPPw0gFY3DNSt2zS1iryLPuLXJsUYIa8",
+  "RawEncryptedKey": null,
+  "RawInitializationVector": null,
+  "RawHeader": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "RawPayload": "eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJhZG1pbiIsImlkIjoiOWYyZWMwNzktN2QwZi00ZmUyLTkwYWItOGIwOWE4MzAyYWJhIiwicm9sZSI6ImFkbWluaXN0cmF0b3JzLCIsInN1YiI6InBhc3N3b3JkIiwibmJmIjoxNjQ5OTE2ODYyLCJleHAiOjE2NDk5NTI4NjIsImlhdCI6MTY0OTkxNjg2Mn0",
+  "RawSignature": "EzX3oTmWI5iVPPw0gFY3DNSt2zS1iryLPuLXJsUYIa8",
+  "SecurityKey": null,
+  "SignatureAlgorithm": "HS256",
+  "SigningCredentials": null,
+  "EncryptingCredentials": null,
+  "SigningKey": null,
+  "Subject": "password",
+  "ValidFrom": "2022-04-14 06:14:22",
+  "ValidTo": "2022-04-14 16:14:22",
+  "IssuedAt": "2022-04-14 06:14:22"
+}

@@ -1,0 +1,52 @@
+【08:37:19.387】  Error T34 
+抛出信息：全局捕获程序运行异常信息
+/api/Token/RefreshToken?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzeXN0ZW0iLCJpc3MiOiJZdWVib25UZWFjaCIsIm5hbWUiOiJkZXZlbG9wZXIiLCJpZCI6IjEiLCJyb2xlIjoiYWRtaW5pc3RyYXRvcnMsIiwic3ViIjoicGFzc3dvcmQiLCJuYmYiOjE3MDExMzE4MzcsImV4cCI6MTcwMTczNjYzNywiaWF0IjoxNzAxMTMxODM3fQ.Ku2cOdORO1Z4eXV62h2T3VC0mcFNQKdTrc1b5EBDIso 
+异常类型：InvalidOperationException 
+异常信息：The ConnectionString property has not been initialized. 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 472
+   at Yuebon.Security.Repositories.UserRepository.GetByUserName(String userName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\System\UserRepository.cs:line 342
+   at Yuebon.Security.Services.UserService.GetByUserName(String userName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 315
+   at Yuebon.WebApi.Controllers.TokenController.RefreshToken(String token) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Controllers\TokenController.cs:line 168
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:18:51.696】  Error T31 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/Role/FindWithPagerAsync 
+异常类型：InvalidOperationException 
+异常信息：The ConnectionString property has not been initialized. 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StackExchange.Profiling.Data.ProfiledDbConnection.Open() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 121
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1093
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 734
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Extensions\SqlMapperExtensions.cs:line 216
+   at Yuebon.Commons.Repositories.BaseRepository`2.Get(TKey primaryKey) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1918
+   at Yuebon.Commons.Services.BaseService`3.Get(TKey id) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Services\BaseService.cs:line 180
+   at Yuebon.Security.Services.RoleService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\RoleService.cs:line 112
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 504
+   at lambda_method226(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

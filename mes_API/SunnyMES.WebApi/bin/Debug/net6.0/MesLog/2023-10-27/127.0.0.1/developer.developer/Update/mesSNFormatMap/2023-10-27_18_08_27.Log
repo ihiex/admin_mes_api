@@ -1,0 +1,4 @@
+before-----
+{"ID":"259","SNFormatID":"1272","PartFamilyID":"2","StationTypeID":"124"}
+after-----
+{"ID":"259","SNFormatID":"1272","PartID":"NULL","PartFamilyID":"2","LineID":"NULL","ProductionOrderID":"NULL","StationTypeID":"124"}

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SunnyMES.Email</RootNamespace>
+    <Version>1.0.3.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://gitee.com/yuebon/YuebonNetCore</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>https://gitee.com/yuebon/YuebonNetCore</RepositoryUrl>
+    <PackageReleaseNotes>邮件发送库</PackageReleaseNotes>
+    <Copyright>SunnyMES有限公司 版权所有</Copyright>
+    <PackageIconUrl />
+    <Company>SunnyMES有限公司</Company>
+    <Authors>Yuebon</Authors>
+    <Description>邮件发送</Description>
+    <AssemblyVersion>1.0.3.1</AssemblyVersion>
+    <FileVersion>1.0.3.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SunnyMES.NetCore\SunnyMES.Commons\SunnyMES.Commons.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

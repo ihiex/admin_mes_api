@@ -1,0 +1,72 @@
+【17:15:02.764】  Error T5 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554
+【17:16:20.606】  Error T35 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554
+【17:35:12.225】  Error T47 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554
+【17:36:56.491】  Error T38 
+抛出信息： 
+异常类型：SqlException 
+异常信息：违反了 PRIMARY KEY 约束“PK_API_RoleAuthorize”。不能在对象“dbo.API_RoleAuthorize”中插入重复键。重复键值为 (20231115095026846132587)。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepository`2.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1554

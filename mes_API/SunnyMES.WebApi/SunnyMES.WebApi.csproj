@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>4d454771-6ff7-43f2-a2b6-7c3bada83304</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\SunnyMES.WebApi.xml</DocumentationFile>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\SunnyMES.WebApi.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="aaa\**" />
+    <Compile Remove="Areas\Authorizer\**" />
+    <Compile Remove="Areas\CMSTest\**" />
+    <Content Remove="aaa\**" />
+    <Content Remove="Areas\Authorizer\**" />
+    <Content Remove="Areas\CMSTest\**" />
+    <EmbeddedResource Remove="aaa\**" />
+    <EmbeddedResource Remove="Areas\Authorizer\**" />
+    <EmbeddedResource Remove="Areas\CMSTest\**" />
+    <None Remove="aaa\**" />
+    <None Remove="Areas\Authorizer\**" />
+    <None Remove="Areas\CMSTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Security\Controllers\FunctionController.cs" />
+    <Compile Remove="Areas\Security\Controllers\TenantController.cs" />
+    <Compile Remove="Controllers\InitSystem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SunnyMES.CMS.Core\SunnyMES.CMS.Core.csproj" />
+    <ProjectReference Include="..\SunnyMES.Messages\SunnyMES.Messages.Core\SunnyMES.Messages.Core.csproj" />
+    <ProjectReference Include="..\SunnyMES.NetCore\SunnyMES.AspNetCore\SunnyMES.AspNetCore.csproj" />
+    <ProjectReference Include="..\SunnyMES.NetCore\SunnyMES.Security.Core\SunnyMES.Security.Core.csproj" />
+    <ProjectReference Include="..\SunnyMES.Quartz.Jobs\SunnyMES.Quartz.Jobs.csproj" />
+    <ProjectReference Include="..\SunnyMES.SMS.Core\SunnyMES.SMS.Core.csproj" />
+    <ProjectReference Include="..\SunnyMES.Tenants.Core\SunnyMES.Tenants.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.3.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\CMS\Data\" />
+    <Folder Include="Areas\CMS\Models\" />
+    <Folder Include="Areas\CMS\Views\" />
+    <Folder Include="ControllerLog\" />
+    <Folder Include="MesLog\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+</Project>

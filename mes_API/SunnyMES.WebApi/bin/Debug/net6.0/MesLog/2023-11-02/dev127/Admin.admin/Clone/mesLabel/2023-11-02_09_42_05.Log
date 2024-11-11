@@ -1,0 +1,4 @@
+from-----
+{"ID":"148","Name":"AAAAAA-------------------","Description":"BBBB------","LabelFamilyID":"2","LabelType":"1","TargetPath":"----","OutputType":"1","PrintCMD":"----","SourcePath":"---//---","PageCapacity":"1"}
+clone-----
+{"ID":"148","Name":"148_Clone","Description":"3333","LabelFamilyID":"2","LabelType":"1","TargetPath":"","OutputType":"1","PrintCMD":"","SourcePath":"","PageCapacity":""}

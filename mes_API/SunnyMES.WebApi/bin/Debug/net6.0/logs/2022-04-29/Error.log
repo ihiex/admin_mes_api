@@ -1,0 +1,935 @@
+【10:59:02.028】  Error T10 
+抛出信息：验证token异常 SecurityTokenExpiredException 
+异常类型：SecurityTokenExpiredException 
+异常信息：IDX10223: Lifetime validation failed. The token is expired. ValidTo: '2022-04-28 16:09:09', Current time: '2022-04-29 02:59:01'. 
+堆栈调用：
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 107
+【10:59:31.278】  Error T11 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method368(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method363(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:03:23.858】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:16:00.354】  Error T27 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:16:51.584】  Error T38 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:18:43.330】  Error T42 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:23:11.870】  Error T11 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method370(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method365(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:23:32.727】  Error T27 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method370(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 126
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method365(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:00:08.883】  Error T27 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method42(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 104
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:01:45.929】  Error T24 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method42(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 104
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:05:14.473】  Error T40 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:15:00.053】  Error T22 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method81(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 104
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method76(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:51:28.928】  Error T24 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 104
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:52:03.326】  Error T34 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 104
+   at Yuebon.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiControllerGeneric.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:31:12.735】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method40(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method35(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:31:32.306】  Error T42 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method40(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method35(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:39:30.921】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：SqlException 
+异常信息：列名 'string' 无效。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at Yuebon.Commons.Repositories.BaseRepository`2.FindWithPagerAsync(String condition, PagerInfo info, String fieldToSort, Boolean desc, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 664
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 119
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method26(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:42:24.055】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method31(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method26(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:45:30.899】  Error T47 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method31(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method26(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:51:24.053】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=5651&vkey=202204291651177440&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:52:15.067】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=2184&vkey=202204291652095766&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:53:32.579】  Error T38 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=6845&vkey=202204291653259180&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:08:21.445】  Error T40 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=2357&vkey=202204291706380541&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:09:32.328】  Error T41 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=6586&vkey=202204291709273258&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:37:30.122】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=9372&vkey=202204291737170548&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:38:34.715】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=3626&vkey=202204291738286353&appId=system&systemCode=openauth 
+异常类型：InvalidOperationException 
+异常信息：Cannot use table 'API_AZhang' for entity type 'ZYM' since it is being used for entity type 'AZhang' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'ZYM' on the primary key properties and pointing to the primary key on another entity type mapped to 'API_AZhang'. 
+【堆栈调用】：
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, String tableName, String schema, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:45:05.814】  Error T21 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/FindWithPagerAsync 
+异常类型：InvalidOperationException 
+异常信息：Unable to resolve service for type 'Yuebon.Security.IServices.IZYMService' while attempting to activate 'Yuebon.WebApi.Areas.Security.Controllers.BZhangController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method385(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:50:53.714】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method23(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:51:29.672】  Error T6 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method23(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:52:09.631】  Error T29 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method23(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:53:51.411】  Error T29 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method23(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

@@ -1,0 +1,45 @@
+【10:03:54.338】  Error T9 
+抛出信息：获取 GetUPHYield 异常 
+异常类型：InvalidOperationException 
+异常信息：Invalid attempt to call FieldCount when reader is closed. 
+堆栈调用：
+   at System.Data.SqlClient.SqlDataReader.get_FieldCount()
+   at Dapper.SqlMapper.GetColumnHash(IDataReader reader, Int32 startBound, Int32 length) in /_/Dapper/SqlMapper.cs:line 38
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 156
+   at Dapper.SqlMapper.GridReader.Read(Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 35
+   at Yuebon.Security.Repositories.ReportRepository.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Report\ReportRepository.cs:line 215
+   at Yuebon.Security.Services.ReportService.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Report\ReportService.cs:line 87
+   at Yuebon.WebApi.Areas.Security.Controllers.ReportController.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\Report\ReportController.cs:line 291
+【10:04:23.005】  Error T14 
+抛出信息：获取 GetUPHYield 异常 
+异常类型：ObjectDisposedException 
+异常信息：The reader has been disposed; this can happen after all data has been consumed
+Object name: 'Dapper.SqlMapper+GridReader'. 
+堆栈调用：
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 150
+   at Dapper.SqlMapper.GridReader.Read(Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 35
+   at Yuebon.Security.Repositories.ReportRepository.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Report\ReportRepository.cs:line 220
+   at Yuebon.Security.Services.ReportService.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Report\ReportService.cs:line 87
+   at Yuebon.WebApi.Areas.Security.Controllers.ReportController.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\Report\ReportController.cs:line 291
+【10:04:28.703】  Error T14 
+抛出信息：获取 GetUPHYield 异常 
+异常类型：ObjectDisposedException 
+异常信息：The reader has been disposed; this can happen after all data has been consumed
+Object name: 'Dapper.SqlMapper+GridReader'. 
+堆栈调用：
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 150
+   at Dapper.SqlMapper.GridReader.Read(Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 35
+   at Yuebon.Security.Repositories.ReportRepository.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Report\ReportRepository.cs:line 220
+   at Yuebon.Security.Services.ReportService.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Report\ReportService.cs:line 87
+   at Yuebon.WebApi.Areas.Security.Controllers.ReportController.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\Report\ReportController.cs:line 291
+【10:04:45.950】  Error T22 
+抛出信息：获取 GetUPHYield 异常 
+异常类型：ObjectDisposedException 
+异常信息：The reader has been disposed; this can happen after all data has been consumed
+Object name: 'Dapper.SqlMapper+GridReader'. 
+堆栈调用：
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 150
+   at Dapper.SqlMapper.GridReader.Read(Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 35
+   at Yuebon.Security.Repositories.ReportRepository.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Report\ReportRepository.cs:line 220
+   at Yuebon.Security.Services.ReportService.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Report\ReportService.cs:line 87
+   at Yuebon.WebApi.Areas.Security.Controllers.ReportController.GetUPHYield() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\Report\ReportController.cs:line 291

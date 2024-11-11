@@ -1,0 +1,4 @@
+before-----
+{"ID":"44","LineGroupName":"MainLine","LineNumber":"100","LineType":"M","PartFamilyTypeID":"2"}
+after-----
+{"ID":"44","LineGroupName":"MainLine","LineID":"2","LineNumber":"100","LineType":"M","PartFamilyTypeID":"2","Line":"null","PartFamilyType":"S11"}

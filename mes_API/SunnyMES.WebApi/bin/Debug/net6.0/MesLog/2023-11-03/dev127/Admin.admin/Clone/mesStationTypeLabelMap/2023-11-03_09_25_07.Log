@@ -1,0 +1,4 @@
+from-----
+{"ID":"1445","StationTypeID":"1161","LabelID":"21","PartID":"2"}
+clone-----
+{"ID":"1445","StationTypeID":"1161","LabelID":"21","PartID":"NULL","PartFamilyID":"NULL","ProductionOrderID":"3","LineID":"NULL"}

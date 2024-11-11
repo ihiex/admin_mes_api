@@ -1,0 +1,1405 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SunnyMES.AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="T:SunnyMES.AspNetCore.Common.CorsMiddleware">
+            <summary>
+            跨域中间件
+            解决net core 3.1 跨域 Cors 找不到 “Access-Control-Allow-Origin”
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Common.CorsMiddleware._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.CorsMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.CorsMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Common.CorsMiddlewareExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Common.DefaultInitial">
+            <summary>
+            默认初始化内容
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.DefaultInitial.CacheAppList">
+            <summary>
+            内存中缓存多应用
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Common.MyApiException">
+            <summary>
+            自定义异常信息
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.Common.MyApiException.Msg">
+            <summary>
+            异常消息
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.Common.MyApiException.Success">
+            <summary>
+            成功状态
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.Common.MyApiException.ErrCode">
+            <summary>
+            提示代码
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.String)">
+            <summary>
+            异常
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="errcode"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.String,System.Boolean,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="success"></param>
+            <param name="errcode"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.MyApiException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="errcode"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Common.Permission">
+            <summary>
+            权限控制
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.Permission.HasFunction(System.String,System.String)">
+            <summary>
+            判断当前用户是否拥有某功能点的权限
+            </summary>
+            <param name="functionCode">功能编码code</param>
+            <param name="userId">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.Permission.IsAdmin(SunnyMES.Security.Dtos.YuebonCurrentUser)">
+            <summary>
+            判断是否为系统管理员或超级管理员
+            </summary>
+            <returns>true:系统管理员或超级管理员,false:不是系统管理员或超级管理员</returns>
+            <param name="currentUser"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Common.YuebonInitialization">
+            <summary>
+            系统初始化内容，根据需要继承实现
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Common.YuebonInitialization.Initial">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Models.ErrCode">
+            <summary>
+            错误代码描述
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err0">
+            <summary>
+            请求成功
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.successCode">
+            <summary>
+            请求成功代码0
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err1">
+            <summary>
+            请求失败
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.failCode">
+            <summary>
+            请求失败代码1
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40001">
+            <summary>
+            获取access_token时AppID或AppSecret错误。请开发者认真比对appid和AppSecret的正确性，或查看是否正在为恰当的应用调用接口
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40002">
+            <summary>
+            调用接口的服务器URL地址不正确，请联系供应商进行设置
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40003">
+            <summary>
+            请确保grant_type字段值为client_credential
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40004">
+            <summary>
+            不合法的凭证类型
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40005">
+            <summary>
+            用户令牌accesstoken超时失效
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40006">
+            <summary>
+            您未被授权使用该功能，请重新登录试试或联系管理员进行处理
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40007">
+            <summary>
+            传递参数出现错误
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40008">
+            <summary>
+            用户未登录或超时
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err40110">
+            <summary>
+            程序异常
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err43001">
+            <summary>
+            新增数据失败
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err43002">
+            <summary>
+            更新数据失败
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err43003">
+            <summary>
+            物理删除数据失败
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err50001">
+            <summary>
+            该用户不存在
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err50002">
+            <summary>
+            该用户已存在
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err50003">
+            <summary>
+            会员注册失败
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err60001">
+            <summary>
+            查询数据不存在
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err70001">
+            <summary>
+            数据已存在
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Models.ErrCode.err70002">
+            <summary>
+            数据信息异常
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Health.DatabaseHealthCheck">
+            <summary>
+            数据库检查
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.ApiController">
+            <summary>
+            WebApi控制器基类
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.CurrentUser">
+            <summary>
+            当前登录的用户属性
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.P_Language">
+            <summary>
+            0:CN  1:EN 
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.P_LineID">
+            <summary>
+            LineID
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.P_StationID">
+            <summary>
+            StationID
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.P_EmployeeID">
+            <summary>
+            EmployeeID
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.ApiController.P_CurrentLoginIP">
+            <summary>
+            CurrentLoginIP
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.ApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            重写基类在Action执行之前的事情
+            根据token获得当前用户，允许匿名的不需要获取用户
+            </summary>
+            <param name="context">重写方法的参数</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.ApiController.ToJsonContent(System.Object)">
+            <summary>
+            把object对象转换为ContentResult
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.ApiController.ToJsonContent(System.Object,System.Boolean)">
+            <summary>
+            把object对象转换为ContentResult
+            </summary>
+            <param name="obj">转换对象</param>
+            <param name="isNull">是否忽略空值</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.ApiController.GetPagerInfo">
+            <summary>
+            根据Request参数获取分页对象数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.ApiController.GetToken">
+            <summary>
+            获取token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.AreaApiController`5">
+            <summary>
+            基本控制器，增删改查
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <typeparam name="TODto">数据输出实体类型</typeparam>
+            <typeparam name="TIDto">数据输入实体类型</typeparam>
+            <typeparam name="TService">Service类型</typeparam>
+            <typeparam name="TKey">主键数据类型</typeparam>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiController`5.iService">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.#ctor(`3)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="_iService"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.OnBeforeInsert(`0)">
+            <summary>
+            在插入数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.OnBeforeUpdate(`0)">
+            <summary>
+            在更新数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.OnBeforeSoftDelete(`0)">
+            <summary>
+            在软删除数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.InsertAsync(`2)">
+            <summary>
+            异步新增数据
+            </summary>
+            <param name="tinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.UpdateAsync(`2)">
+            <summary>
+            异步更新数据，需要在业务模块控制器重写该方法,否则更新无效
+            </summary>
+            <param name="inInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.Delete(`4)">
+            <summary>
+            物理删除
+            </summary>
+            <param name="id">主键Id</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.DeleteAsync(`4)">
+            <summary>
+            异步物理删除
+            </summary>
+            <param name="id">主键Id</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.DeleteBatchAsync(SunnyMES.Commons.Core.Dtos.DeletesInputDto)">
+            <summary>
+            异步批量物理删除
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.DeleteSoft(`4,System.String)">
+            <summary>
+            软删除信息
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">删除标识，默认为1：即设为删除,0：未删除</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.DeleteSoftAsync(`4,System.String)">
+            <summary>
+            异步软删除信息
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">删除标识，默认为1：即设为删除,0：未删除</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.DeleteSoftBatchAsync(SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel)">
+            <summary>
+            异步批量软删除信息
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.SetEnabledMark(`4,System.String)">
+            <summary>
+            设为数据有效性
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">有效标识，默认为1：即设为无效,0：有效</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.SetEnabledMarkAsync(`4,System.String)">
+            <summary>
+            异步设为数据有效性
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">有效标识，默认为1：即设为无效,0：有效</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.SetEnabledMarktBatchAsync(SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel)">
+            <summary>
+            异步批量设为数据有效性
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.GetById(`4)">
+            <summary>
+            根据主键Id获取一个对象信息
+            </summary>
+            <param name="id">主键Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.FindWithPager(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            </summary>
+            <param name="search">查询条件</param>
+            <returns>指定对象的集合</returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiController`5.GetAllEnable">
+            <summary>
+            获取所有可用的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TServiceCommon"></typeparam>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.S_Path_NG">
+            <summary>
+            Sounds//NG.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.S_Path_OK">
+            <summary>
+            Sounds//OK.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.S_Path_RE">
+            <summary>
+            Sounds//RE.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.iService">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.#ctor(`0)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="_iService"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.FormatMsg(System.String,System.String)">
+            <summary>
+            格式化日志输出格式
+            </summary>
+            <param name="sn"></param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.FormatOutputMsg(System.String,System.String)">
+            <summary>
+            格式化输出日志
+            </summary>
+            <param name="sn">输入数据</param>
+            <param name="msg">错误提示信息，正常提示请传空值</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.GetPublicErrorAsync(System.String,System.Object,SunnyMES.Security._2_Dtos.MES.MesOutputDto)">
+            <summary>
+            
+            </summary>
+            <param name="ErrorMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.FormatResultAsync(SunnyMES.Commons.Models.CommonResult,System.Collections.Generic.List{System.Object},System.String)">
+            <summary>
+            返回结果
+            </summary>
+            <param name="v_CommonResult"></param>
+            <param name="List_Dyn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.FormatResultAsync(SunnyMES.Commons.Models.CommonResult,SunnyMES.Security._2_Dtos.MES.MesOutputDto,System.String)">
+            <summary>
+            返回结果
+            </summary>
+            <param name="v_CommonResult"></param>
+            <param name="List_Dyn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCommon`2.FormatNGResultAsync(SunnyMES.Commons.Models.CommonResult,SunnyMES.Security._2_Dtos.MES.MesOutputDto,System.String)">
+            <summary>
+            针对动态组装窗口定制了一个输出方式
+            当NG时都会返回参数列表
+            其他页面是在NG时不返回参数列表
+            </summary>
+            <param name="v_CommonResult"></param>
+            <param name="mesOutput"></param>
+            <param name="_sn"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5">
+            <summary>
+            基本控制器，增删改查
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <typeparam name="TODto">数据输出实体类型</typeparam>
+            <typeparam name="TIDto">数据输入实体类型</typeparam>
+            <typeparam name="TService">Service类型</typeparam>
+            <typeparam name="TKey">主键数据类型</typeparam>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.iService">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.S_Path_NG">
+            <summary>
+            Sounds//NG.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.S_Path_OK">
+            <summary>
+            Sounds//OK.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.S_Path_RE">
+            <summary>
+            Sounds//RE.wav
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.#ctor(`3)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="_iService"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.#ctor(`3,SunnyMES.Security.IServices.ILogService)">
+            <summary>
+            
+            </summary>
+            <param name="_iService"></param>
+            <param name="logService"></param>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.commonHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.throwMsg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.startTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.StationName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.LogFunctionCode">
+            <summary>
+            日志功能代码
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.ActionEnabled">
+            <summary>
+            启用动作日志
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.ExistsWhere">
+            <summary>
+            检查是否存在的条件名
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.PrimaryKeyName">
+            <summary>
+            主键名称  默认为ID
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.WriteLog(`0,System.String)">
+            <summary>
+            写Log
+            </summary>
+            <param name="info"></param>
+            <param name="otherCode">其他类型功能代码</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.OnBeforeInsert(`0)">
+            <summary>
+            在插入数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.OnBeforeUpdate(`0)">
+            <summary>
+            在更新数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.OnBeforeDelete(`0)">
+            <summary>
+            在软删除数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.InsertAsync(`2)">
+            <summary>
+            异步新增数据
+            </summary>
+            <param name="tinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.UpdateAsync(`2)">
+            <summary>
+            异步更新数据，需要在业务模块控制器重写该方法,否则更新无效
+            </summary>
+            <param name="inInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.IsExistsT(`0)">
+            <summary>
+            针对单一类型，不存在父子关系表，检查是否存在
+            
+            </summary>
+            <param name="entity"></param>
+            <returns>true 存在</returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.DeleteAsync(`2)">
+            <summary>
+            异步物理删除
+            </summary>
+            <param name="id">主键Id</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.CloneAsync(`2)">
+            <summary>
+            克隆项
+            公用接口，默认仅克隆当前项，子项不处理
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.GetById(`4)">
+            <summary>
+            根据主键Id获取一个对象信息
+            </summary>
+            <param name="id">主键Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FindWithPager(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            </summary>
+            <param name="search">查询条件</param>
+            <returns>指定对象的集合</returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FindWithPagerAsync(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FindWithAllPagerAsync(System.String,System.Boolean)">
+            <summary>
+            查询所有页
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FindPagerByParentAsync(System.Int32)">
+            <summary>
+            根据父ID查询所有页  子类必须重写，否则无效
+            </summary>
+            <param name="ParentID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.GetAllEnable">
+            <summary>
+            获取所有可用的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.ShowMsg(System.String)">
+            <summary>
+            根据语言返回对应的消息
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.UpdateBeforeCheckAsync(`0)">
+            <summary>
+            更新前检查
+            </summary>
+            <param name="inInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatMsg(System.String,System.String)">
+            <summary>
+            格式化日志输出格式
+            </summary>
+            <param name="sn"></param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatOutputMsg(System.String,System.String)">
+            <summary>
+            格式化输出日志
+            </summary>
+            <param name="sn">输入数据</param>
+            <param name="msg">错误提示信息，正常提示请传空值</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatOKResult(SunnyMES.Commons.Models.CommonResult,System.Object,System.String)">
+            <summary>
+            格式化OK结果
+            </summary>
+            <param name="commonResult"></param>
+            <param name="data"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatNGResult(SunnyMES.Commons.Models.CommonResult,System.String)">
+            <summary>
+            格式化NG结果
+            </summary>
+            <param name="commonResult"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatUpdateMsg(`0,`0)">
+            <summary>
+            拼装log字符
+            </summary>
+            <param name="beforeT">更新前实体</param>
+            <param name="afterT">更新后实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerCustom`5.FormatCloneMsg(`0,`0)">
+            <summary>
+            克隆项写log
+            </summary>
+            <param name="beforeT"></param>
+            <param name="cloneT"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5">
+            <summary>
+            基本控制器，增删改查
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <typeparam name="TODto">数据输出实体类型</typeparam>
+            <typeparam name="TIDto">数据输入实体类型</typeparam>
+            <typeparam name="TService">Service类型</typeparam>
+            <typeparam name="TKey">主键数据类型</typeparam>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.iService">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.#ctor(`3)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="_iService"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.OnBeforeInsert(`0)">
+            <summary>
+            在插入数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.OnBeforeUpdate(`0)">
+            <summary>
+            在更新数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.OnBeforeSoftDelete(`0)">
+            <summary>
+            在软删除数据前对数据的修改操作
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.InsertAsync(`2)">
+            <summary>
+            异步新增数据
+            </summary>
+            <param name="tinfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.UpdateAsync(`2)">
+            <summary>
+            异步更新数据，需要在业务模块控制器重写该方法,否则更新无效
+            </summary>
+            <param name="inInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.Delete(`4)">
+            <summary>
+            物理删除
+            </summary>
+            <param name="id">主键Id</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.DeleteAsync(`4)">
+            <summary>
+            异步物理删除
+            </summary>
+            <param name="id">主键Id</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.DeleteBatchAsync(SunnyMES.Commons.Core.Dtos.DeletesInputDto)">
+            <summary>
+            异步批量物理删除
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.DeleteSoft(`4,System.String)">
+            <summary>
+            软删除信息
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">删除标识，默认为1：即设为删除,0：未删除</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.DeleteSoftAsync(`4,System.String)">
+            <summary>
+            异步软删除信息
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">删除标识，默认为1：即设为删除,0：未删除</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.DeleteSoftBatchAsync(SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel)">
+            <summary>
+            异步批量软删除信息
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.SetEnabledMark(`4,System.String)">
+            <summary>
+            设为数据有效性
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">有效标识，默认为1：即设为无效,0：有效</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.SetEnabledMarkAsync(`4,System.String)">
+            <summary>
+            异步设为数据有效性
+            </summary>
+            <param name="id">主键Id</param>
+            <param name="bltag">有效标识，默认为1：即设为无效,0：有效</param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.SetEnabledMarktBatchAsync(SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel)">
+            <summary>
+            异步批量设为数据有效性
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.GetById(`4)">
+            <summary>
+            根据主键Id获取一个对象信息
+            </summary>
+            <param name="id">主键Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPager(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            </summary>
+            <param name="search">查询条件</param>
+            <returns>指定对象的集合</returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.FindWithPagerAsync(SunnyMES.Commons.Dtos.SearchInputDto{`0})">
+            <summary>
+            根据条件查询数据库,并返回对象集合(用于分页数据显示)
+            
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerGeneric`5.GetAllEnable">
+            <summary>
+            获取所有可用的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2">
+            <summary>
+            Report 基本控制器
+            </summary>
+            <typeparam name="TServiceReport">Service类型</typeparam>
+            <typeparam name="TKey">主键数据类型</typeparam>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2.S_Path_NG">
+            <summary>
+            Sounds//NG.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2.S_Path_OK">
+            <summary>
+            Sounds//OK.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2.S_Path_RE">
+            <summary>
+            Sounds//RE.wav
+            </summary>
+        </member>
+        <member name="F:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2.iService">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Controllers.AreaApiControllerReport`2.#ctor(`0)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="_iService"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.ActionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.ActionFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.ActionFilter.WriteLog(StackExchange.Profiling.MiniProfiler)">
+            <summary>
+            sql跟踪
+            下载：MiniProfiler.AspNetCore
+            </summary>
+            <param name="profiler"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.ActionFilter.GetSqlLog(System.Collections.Generic.List{StackExchange.Profiling.Timing})">
+            <summary>
+            递归获取MiniProfiler内容
+            </summary>
+            <param name="chil"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.AddRequiredHeaderParameter">
+            <summary>
+            向swagger添加header参数
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.AddRequiredHeaderParameter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)">
+            <inheritdoc />
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnResultExecuting(Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnResultExecuted(Microsoft.AspNetCore.Mvc.Filters.ResultExecutedContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.CommonAuthorizeAttribute.OnResultExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate)">
+            <inheritdoc />
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.ExceptionHandlingAttribute">
+            <summary>
+            表示一个特性，该特性用于全局捕获程序运行异常信息。
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.ExceptionHandlingAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.NoPermissionRequiredAttribute">
+            <summary>
+            不需要权限验证,不需要登录
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.NoPermissionRequiredAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.NoSignRequiredAttribute">
+            <summary>
+            不需要签名验证
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.NoSignRequiredAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.RemoveVersionFromParameter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.RemoveVersionFromParameter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.Filter.SwaggerFileUploadFilter">
+            <summary>
+            Swagger 上传文件过滤器
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.Filter.SwaggerFileUploadFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            应用过滤器
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.HiddenApiAttribute">
+            <summary> 
+            隐藏接口，不生成到swagger文档展示 
+            </summary> 
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.HiddenApiFilter">
+            <summary>
+            隐藏接口，不生成到swagger文档展示 
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.HiddenApiFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            实现Apply方法
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="documentFilterContext"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.YuebonAuthorizeAttribute">
+            <summary>
+            功能权限属性配置
+            
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.Mvc.YuebonAuthorizeAttribute.Function">
+            <summary>
+            功能权限
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.YuebonAuthorizeAttribute.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="function">功能代码</param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.PsysLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.PsysLog.SetControllerLog(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="S_MSG"></param>
+            <param name="S_CurrentLoginIP"></param>
+            <param name="S_UserID"></param>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.Mvc.TokenProvider">
+            <summary>
+            Token令牌提供类
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.#ctor(SunnyMES.Commons.Options.JwtOption)">
+            <summary>
+            构造函数，初花jwtmodel
+            </summary>
+            <param name="jwtModel"></param>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.GenerateToken(System.String,System.String,System.String)">
+            <summary>
+            直接通过appid和加密字符串获取访问令牌接口
+            </summary>
+            <param name="granttype">获取access_token填写client_credential</param>
+            <param name="appid">用户唯一凭证AppId</param>
+            <param name="secret">用户唯一凭证密钥，即appsecret</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.ValidateToken(System.String)">
+            <summary>
+            检查用户的Token有效性
+            </summary>
+            <param name="token">token令牌</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.LoginToken(SunnyMES.Security.Models.User,System.String)">
+            <summary>
+            根据用户获取token
+            </summary>
+            <param name="userInfo">用户信息</param>
+            <param name="appid">应用Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SunnyMES.AspNetCore.Mvc.TokenProvider.GetUserToken(SunnyMES.Security.Models.User,System.String)">
+            <summary>
+            根据登录用户获取token
+            </summary>
+            <param name="userInfo">用户信息</param>
+            <param name="appid">应用Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.DbConnInfo">
+            <summary>
+            数据库连接字符串实体
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbAddress">
+            <summary>
+            访问地址
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbPort">
+            <summary>
+            端口，默认SQLServer为1433；Mysql为3306
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbName">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbUserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbPassword">
+            <summary>
+            访问密码
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DbConnInfo.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.DBConnResult">
+            <summary>
+            数据库连接返回结果实体
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DBConnResult.ConnStr">
+            <summary>
+            未加密字符串
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.DBConnResult.EncryptConnStr">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.SearchModel">
+            <summary>
+            查询条件公共实体类
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.SearchModel.Keywords">
+            <summary>
+            关键词
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.SearchModel.EnCode">
+            <summary>
+            编码/代码
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.SearchModel.Order">
+            <summary>
+            排序方式 默认asc 
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.SearchModel.Sort">
+            <summary>
+            排序字段 默认Id
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel">
+            <summary>
+            批量更新操作传入参数，如设为禁用、有效、软删除；
+            物理删除操作是Flag无效不用传参
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel.Ids">
+            <summary>
+            主键Id集合
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.UpdateEnableViewModel.Flag">
+            <summary>
+            有效标识，默认为1：即设为无效,0：有效
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.VueCascaderModel">
+            <summary>
+            Vue Cascader 级联选择模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VueCascaderModel.value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VueCascaderModel.label">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VueCascaderModel.children">
+            <summary>
+            子集
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel">
+            <summary>
+            Vuex菜单模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.path">
+            <summary>
+            字符串，对应当前路由的路径，总是解析为绝对路径
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.component">
+            <summary>
+            命名视图组件
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.redirect">
+            <summary>
+            重定向地址，在面包屑中点击会重定向去的地址
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.name">
+            <summary>
+            设定路由的名字，一定要填写不然使用keep-alive时会出现各种问题
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.meta">
+            <summary>
+            在根路由设置权限，这样它下面所以的子路由都继承了这个权限
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenusTreeModel.children">
+            <summary>
+            子菜单
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.VuexMenus">
+            <summary>
+            VuexMenus路由模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenus.path">
+            <summary>
+            访问路径
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenus.component">
+            <summary>
+            对应模块
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenus.redirect">
+            <summary>
+            重定向地址，在面包屑中点击会重定向去的地址
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenus.name">
+            <summary>
+            设定路由的名字，一定要填写不然使用keep-alive时会出现各种问题
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.VuexMenus.meta">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SunnyMES.AspNetCore.ViewModel.Meta">
+            <summary>
+            路由元信息模型
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.Meta.title">
+            <summary>
+            设置该路由在侧边栏和面包屑中展示的名字
+            </summary>
+        </member>
+        <member name="P:SunnyMES.AspNetCore.ViewModel.Meta.icon">
+            <summary>
+            设置该路由的图标
+            </summary>
+        </member>
+        <member name="T:SunnyMES.WebApi.Common.SessionObject">
+            <summary>
+            SessionObject是登录之后，给客户端传回的对象
+            </summary>
+        </member>
+        <member name="P:SunnyMES.WebApi.Common.SessionObject.SessionKey">
+            <summary>
+            SessionKey
+            </summary>
+        </member>
+        <member name="P:SunnyMES.WebApi.Common.SessionObject.LogonUser">
+            <summary>
+            当前登录的用户的信息
+            </summary>
+        </member>
+    </members>
+</doc>

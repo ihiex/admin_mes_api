@@ -1,0 +1,5 @@
+before-----
+{"ID":"2353","SNFormatID":"1357","SectionType":"4","SectionParam":"nnnnn","Increment":"1","InvalidChar":"1,o","LastUsed":"","Order":"1","AllowReset":false}
+{"ID":"1338","SNSectionID":"2353","Start":"00000","End":"99999","Order":"0","StatusID":"0"}
+after-----
+{"ID":"2353","SNFormatID":"1357","SectionTypeID":"4","SectionParam":"nnnnnd","Increment":"1","InvalidChar":"1,o","LastUsed":"","Order":"1","AllowReset":false,"SNRange":{"ID":"1338","SNSectionID":"2353","Start":"006554","End":"8A8776","Order":"0","StatusID":"0"}}

@@ -1,0 +1,72 @@
+【08:52:54.439】  Error T22 
+抛出信息：获取 SetConfirmPO 异常 
+异常类型：SqlException 
+异常信息：列名 'ParentValueID' 无效。
+列名 'ParentCheckID' 无效。
+列名 'ValueType' 无效。
+列名 'CheckType' 无效。
+列名 'Parameters' 无效。
+列名 'Required' 无效。 
+堆栈调用：
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.PublicRepository.GetmesPoDetailConfigAsync(String poID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 3450
+   at Yuebon.Security.Repositories.PrintRepository.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\SNFormat\PrintRepository.cs:line 293
+   at Yuebon.Security.Services.PrintService.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\SNFormat\PrintService.cs:line 49
+   at Yuebon.WebApi.Areas.Security.Controllers.PrintController.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\SNFormat\PrintController.cs:line 254
+【08:53:05.038】  Error T8 
+抛出信息：获取 SetConfirmPO 异常 
+异常类型：SqlException 
+异常信息：列名 'ParentValueID' 无效。
+列名 'ParentCheckID' 无效。
+列名 'ValueType' 无效。
+列名 'CheckType' 无效。
+列名 'Parameters' 无效。
+列名 'Required' 无效。 
+堆栈调用：
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.PublicRepository.GetmesPoDetailConfigAsync(String poID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 3450
+   at Yuebon.Security.Repositories.PrintRepository.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\SNFormat\PrintRepository.cs:line 293
+   at Yuebon.Security.Services.PrintService.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\SNFormat\PrintService.cs:line 49
+   at Yuebon.WebApi.Areas.Security.Controllers.PrintController.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\SNFormat\PrintController.cs:line 254
+【08:55:22.096】  Error T8 
+抛出信息：获取 SetConfirmPO 异常 
+异常类型：SqlException 
+异常信息：列名 'ParentValueID' 无效。
+列名 'ParentCheckID' 无效。
+列名 'ValueType' 无效。
+列名 'CheckType' 无效。
+列名 'Parameters' 无效。
+列名 'Required' 无效。 
+堆栈调用：
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.PublicRepository.GetmesPoDetailConfigAsync(String poID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 3450
+   at Yuebon.Security.Repositories.PrintRepository.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\SNFormat\PrintRepository.cs:line 293
+   at Yuebon.Security.Services.PrintService.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\SNFormat\PrintService.cs:line 49
+   at Yuebon.WebApi.Areas.Security.Controllers.PrintController.SetConfirmPO(String S_PartFamilyTypeID, String S_PartFamilyID, String S_PartID, String S_POID, String S_LineNumber, String S_UnitStatus, String Type, String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\SNFormat\PrintController.cs:line 254
