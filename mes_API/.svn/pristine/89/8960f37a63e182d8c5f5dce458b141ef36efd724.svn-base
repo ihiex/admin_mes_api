@@ -1,0 +1,4 @@
+from-----
+{"ID":"45","LineGroupName":"MainLine","LineID":"1","LineNumber":"800","LineType":"M","PartFamilyTypeID":"8"}
+clone-----
+{"ID":"45","LineGroupName":"MainLine","LineID":"6","LineNumber":"801","LineType":"M","PartFamilyTypeID":"6","Line":"FG_PrintLine","PartFamilyType":"HBF"}

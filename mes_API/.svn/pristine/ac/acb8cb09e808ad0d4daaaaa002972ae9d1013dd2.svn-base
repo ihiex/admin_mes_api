@@ -1,0 +1,5 @@
+before-----
+{"ID":"4","SNFormatID":"2","SectionType":"4","SectionParam":"nnn","Increment":"1","InvalidChar":"I,O","LastUsed":"001","Order":"3"}
+{"ID":"1","SNSectionID":"4","Start":"001","End":"ZZZ","Order":"0","StatusID":"1"}
+after-----
+{"ID":"4","SNFormatID":"2","SectionTypeID":"4","SectionParam":"nnn","Increment":"1","InvalidChar":"1","LastUsed":"1","Order":"3","AllowReset":false,"SNRange":{"ID":"1","SNSectionID":"4","Start":"004","End":"ZZZ","Order":"0","StatusID":"1"}}

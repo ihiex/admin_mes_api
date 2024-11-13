@@ -1,0 +1,5 @@
+before-----
+{"ID":"2369","SNFormatID":"1359","SectionType":"4","SectionParam":"nnn","Increment":"1","InvalidChar":"1","Order":"6","AllowReset":false}
+{"ID":"1343","SNSectionID":"2369","Start":"000","End":"333","Order":"1","StatusID":"0"}
+after-----
+{"ID":"2369","SNFormatID":"1359","SectionTypeID":"4","SectionParam":"nnn","Increment":"1","InvalidChar":"nnn","LastUsed":"","Order":"6","AllowReset":false,"List_SNRange":[{"ID":"1343","Start":"000","End":"555","Order":"1","StatusID":"0"},{"ID":"1344","Start":"666","End":"999","Order":"2","StatusID":"0"}]}

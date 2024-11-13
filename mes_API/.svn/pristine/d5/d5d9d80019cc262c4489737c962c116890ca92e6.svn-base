@@ -1,0 +1,510 @@
+【08:40:43.771】  Error T30 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method368(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method363(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【08:48:12.342】  Error T6 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【08:48:23.636】  Error T6 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【09:07:39.983】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/API_ZYM/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.API_ZYM, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.ZYMOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method33(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.ZYMService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method28(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【10:43:16.558】  Error T223 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:04:03.813】  Error T222 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:04:36.320】  Error T211 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:04:52.887】  Error T222 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:04:59.058】  Error T221 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:05:04.725】  Error T222 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:05:10.043】  Error T221 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:05:15.723】  Error T222 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:05:21.229】  Error T197 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:06:08.054】  Error T192 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:16:19.993】  Error T251 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:18:11.750】  Error T221 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【11:25:20.885】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/FindWithPagerAsync 
+异常类型：SqlException 
+异常信息：列名 'string' 无效。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1013
+   at Yuebon.Commons.Repositories.BaseRepository`2.FindWithPagerAsync(String condition, PagerInfo info, String fieldToSort, Boolean desc, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 664
+   at Yuebon.Security.Services.BZhangService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 119
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method372(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:26:13.092】  Error T160 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【13:26:45.841】  Error T160 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【13:26:52.834】  Error T160 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.BZhang, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.BZhangOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method886(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.BZhangService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method881(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:29:59.959】  Error T179 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/FindWithPagerAsync 
+异常类型：AutoMapperMappingException 
+异常信息：Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Yuebon.Security.Models.BZhang, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Yuebon.Security.Dtos.BZhangOutputDto, Yuebon.Security.Core, Version=1.3.2.41, Culture=neutral, PublicKeyToken=null]] 
+【堆栈调用】：
+   at lambda_method886(Closure , Object , List`1 , ResolutionContext )
+   at Yuebon.Commons.Mapping.MapperExtensions.MapTo[T](IEnumerable obj) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Mapping\MapperExtensions.cs:line 81
+   at Yuebon.Security.Services.BZhangService.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 120
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.FindWithPagerAsync(SearchInputDto`1 search) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 468
+   at lambda_method881(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:34:13.395】  Error T24 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Insert 
+异常类型：SqlException 
+异常信息：对象名 'API_BZhang' 无效。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 288
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2848
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at Yuebon.Security.Repositories.BZhangRepository.InsertBZhang(BZhang v_BZhang, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\BZhangRepository.cs:line 68
+   at Yuebon.Security.Services.BZhangService.InsertAsync(BZhang entity, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 73
+   at Yuebon.AspNetCore.Controllers.AreaApiController`5.InsertAsync(TIDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\AreaApiController.cs:line 106
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:35:40.627】  Error T10 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【13:53:11.723】  Error T26 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Insert 
+异常类型：SqlException 
+异常信息：对象名 'API_BZhang' 无效。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 288
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2848
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at Yuebon.Security.Repositories.BZhangRepository.InsertBZhang(BZhang v_BZhang, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\BZhangRepository.cs:line 68
+   at Yuebon.Security.Services.BZhangService.InsertAsync(BZhang entity, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 73
+   at Yuebon.WebApi.Areas.Security.Controllers.BZhangController.InsertAsync(BZhangInputDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\BZhangController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:24:54.788】  Error T24 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:26:57.056】  Error T21 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:27:21.705】  Error T21 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Insert 
+异常类型：SqlException 
+异常信息：字符串 '46546546')' 后的引号不完整。
+“46546546')”附近有语法错误。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 288
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2848
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at Yuebon.Security.Repositories.BZhangRepository.InsertBZhang(BZhang v_BZhang, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\BZhangRepository.cs:line 68
+   at Yuebon.Security.Services.BZhangService.InsertAsync(BZhang entity, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 73
+   at Yuebon.WebApi.Areas.Security.Controllers.BZhangController.InsertAsync(BZhangInputDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\BZhangController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:47:42.229】  Error T43 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Insert 
+异常类型：SqlException 
+异常信息：“r”附近有语法错误。
+字符串 ')' 后的引号不完整。 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 288
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2848
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at Yuebon.Security.Repositories.BZhangRepository.InsertBZhang(BZhang v_BZhang, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\BZhangRepository.cs:line 72
+   at Yuebon.Security.Services.BZhangService.InsertAsync(BZhang entity, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 73
+   at Yuebon.WebApi.Areas.Security.Controllers.BZhangController.InsertAsync(BZhangInputDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\BZhangController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:49:05.023】  Error T32 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Update 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.Commons.Repositories.BaseRepositoryGeneric`2.UpdateAsync(T entity, TKey primaryKey, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepositoryGeneric.cs:line 977
+   at Yuebon.Security.Services.BZhangService.UpdateAsync(BZhang entity, String id, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 59
+   at Yuebon.WebApi.Areas.Security.Controllers.BZhangController.UpdateAsync(BZhangInputDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\BZhangController.cs:line 128
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:43:24.036】  Error T10 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:17:34.976】  Error T11 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/BZhang/Update 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.Commons.Repositories.BaseRepositoryGeneric`2.UpdateAsync(T entity, TKey primaryKey, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepositoryGeneric.cs:line 977
+   at Yuebon.Security.Services.BZhangService.UpdateAsync(BZhang entity, String id, IDbTransaction trans) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\BZhangService.cs:line 59
+   at Yuebon.WebApi.Areas.Security.Controllers.BZhangController.UpdateAsync(BZhangInputDto tinfo) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\BZhangController.cs:line 128
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

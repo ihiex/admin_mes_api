@@ -1,0 +1,110 @@
+【13:24:03.216】  Error T89 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_IdNameDescRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Public\SC_IdNameDescRepository.cs:line 74
+   at Yuebon.Security.Services.SC_IdNameDescService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Public\SC_IdNameDescService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_SNFamilyController.Insert(SC_IdNameDesc v_SC_IdNameDescDto) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SNFamilyController.cs:line 96
+【13:25:21.874】  Error T174 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_IdNameDescRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Public\SC_IdNameDescRepository.cs:line 74
+   at Yuebon.Security.Services.SC_IdNameDescService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Public\SC_IdNameDescService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_SNFamilyController.Insert(SC_IdNameDesc v_SC_IdNameDescDto) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SNFamilyController.cs:line 96
+【13:34:26.062】  Error T37 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_IdDescRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Public\SC_IdDescRepository.cs:line 74
+   at Yuebon.Security.Services.SC_IdDescService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Public\SC_IdDescService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_SNTypeController.Insert(SC_IdDesc v_SC_IdDescDto) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SNTypeController.cs:line 96
+【14:14:39.324】  Error T22 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesSNFormatService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.Insert(SC_mesSNFormat v_SC_mesSNFormat) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 95
+【14:20:08.422】  Error T28 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'SectionTypeID' 无效。
+列名 'False' 无效。
+列名 'SectionTypeID' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 378
+ClientConnectionId:06a99a80-9280-43d9-aef5-847f1a56bd8f
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 441
+   at Yuebon.Security.Services.SC_mesSNFormatService.FindWithPagerSearchAsync(SC_mesSNFormatSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String SNFamilyID, String SNFamily, String SectionTypeID, String SectionType, String SectionParam, String Increment, String InvalidChar, String LastUsed, Boolean AllowReset) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 337
+【14:28:10.079】  Error T8 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'False' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 381
+ClientConnectionId:9a609c62-c4ef-4e1e-95c5-9e89a0135d91
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 444
+   at Yuebon.Security.Services.SC_mesSNFormatService.FindWithPagerSearchAsync(SC_mesSNFormatSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String SNFamilyID, String SNFamily, String SectionTypeID, String SectionType, String SectionParam, String Increment, String InvalidChar, String LastUsed, Boolean AllowReset) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 337
+【14:34:35.815】  Error T8 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'SectionTypeID' 无效。
+列名 'StationID' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 427
+ClientConnectionId:fb01acc0-f84b-4ef8-8fc9-c23bd1a49bea
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.FindWithPagerMyAsync(SC_mesSNFormatSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 445
+   at Yuebon.Security.Services.SC_mesSNFormatService.FindWithPagerSearchAsync(SC_mesSNFormatSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String SNFamilyID, String SNFamily, String SectionTypeID, String SectionType, String SectionParam, String Increment, String InvalidChar, String LastUsed, Boolean AllowReset) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 337

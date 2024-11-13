@@ -1,0 +1,20 @@
+【14:40:01.689】  Error T31 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 在将 nvarchar 值 'NULL' 转换成数据类型 int 时失败。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass190_0.<ReadAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 436
+   at Yuebon.Security.Repositories.SC_mesSNFormatMapRepository.FindWithPagerMyAsync(SC_mesSNFormatMapSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatMapRepository.cs:line 373
+ClientConnectionId:fad5ecd4-adee-4220-bc75-20141b23cb98
+Error Number:245,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesSNFormatMapRepository.FindWithPagerMyAsync(SC_mesSNFormatMapSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatMapRepository.cs:line 388
+   at Yuebon.Security.Services.SC_mesSNFormatMapService.FindWithPagerMyAsync(SC_mesSNFormatMapSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatMapService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatMapController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String SNFormatID, String SNFormat, String PartID, String Part, String PartFamilyID, String PartFamily, String LineID, String Line, String ProductionOrderID, String ProductionOrder, String StationTypeID, String StationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatMapController.cs:line 340

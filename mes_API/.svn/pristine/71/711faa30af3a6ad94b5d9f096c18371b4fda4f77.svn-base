@@ -1,0 +1,4 @@
+before-----
+{"ID":"22","RouteID":"4","StationTypeID":"14","UnitStateID":"301","Sequence":"290","Description":""}
+after-----
+{"ID":"22","RouteID":"4","StationTypeID":"14","UnitStateID":"301","SequenceMod":"300","Sequence":"12","Description":""}

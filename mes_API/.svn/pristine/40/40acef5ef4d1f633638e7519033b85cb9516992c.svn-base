@@ -1,0 +1,4 @@
+before-----
+{"ID":"45","LineGroupName":"MainLine","LineID":"1","LineNumber":"888","LineType":"M","PartFamilyTypeID":"6"}
+after-----
+{"ID":"45","LineGroupName":"MainLine","LineID":"1","LineNumber":"800","LineType":"M","PartFamilyTypeID":"8","Line":"FG_PrintLine","PartFamilyType":"MAGNET"}

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunnyMES.AspNetCore</id>
+    <version>1.3.2.2</version>
+    <authors>SunnyMES</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://sunnymes/</projectUrl>
+    <description>Package Description</description>
+    <releaseNotes>兼容最新版SunnyMES.Security.Core</releaseNotes>
+    <copyright>SunnyMES有限公司 版权所有</copyright>
+    <repository type="git" url="https://SunnyMES" commit="73fc19c4378a4d91f96e5cabde29a2cce8962b7a" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="SunnyMES.Security.Core" version="1.3.2.41" exclude="Build,Analyzers" />
+        <dependency id="IdentityModel" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authorization" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics.HealthChecks" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="6.15.1" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.2.3" exclude="Build,Analyzers" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.15.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\admin\admin_mes_api\mes_API\SunnyMES.NetCore\SunnyMES.AspNetCore\bin\Debug\net6.0\SunnyMES.AspNetCore.runtimeconfig.json" target="lib\net6.0\SunnyMES.AspNetCore.runtimeconfig.json" />
+    <file src="D:\admin\admin_mes_api\mes_API\SunnyMES.NetCore\SunnyMES.AspNetCore\bin\Debug\net6.0\SunnyMES.AspNetCore.dll" target="lib\net6.0\SunnyMES.AspNetCore.dll" />
+    <file src="D:\admin\admin_mes_api\mes_API\SunnyMES.NetCore\SunnyMES.AspNetCore\bin\Debug\net6.0\SunnyMES.AspNetCore.xml" target="lib\net6.0\SunnyMES.AspNetCore.xml" />
+    <file src="D:\admin\admin_mes_api\mes_API\logo.png" target="logo.png" />
+    <file src="D:\admin\admin_mes_api\mes_API\LICENSE" target="LICENSE" />
+  </files>
+</package>

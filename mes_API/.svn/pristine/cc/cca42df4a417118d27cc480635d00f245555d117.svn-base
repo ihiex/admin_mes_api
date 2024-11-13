@@ -1,0 +1,161 @@
+【11:51:37.746】  Error T9 
+抛出信息：获取 GetProZYM 异常 
+异常类型：RuntimeBinderException 
+异常信息：Cannot implicitly convert type 'object' to 'Yuebon.Security.Dtos.ZYMOutputDto'. An explicit conversion exists (are you missing a cast?) 
+堆栈调用：
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Yuebon.Security.Repositories.ZYMRepository.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\ZYMRepository.cs:line 42
+   at Yuebon.Security.Services.ZYMService.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 43
+   at Yuebon.WebApi.Areas.Security.Controllers.ZYMController.GetProZYM() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\ZYMController.cs:line 47
+【11:52:17.700】  Error T9 
+抛出信息：获取 GetProZYM 异常 
+异常类型：RuntimeBinderException 
+异常信息：Cannot implicitly convert type 'object' to 'Yuebon.Security.Dtos.ZYMOutputDto'. An explicit conversion exists (are you missing a cast?) 
+堆栈调用：
+   at CallSite.Target(Closure , CallSite , Object )
+   at Yuebon.Security.Repositories.ZYMRepository.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\ZYMRepository.cs:line 42
+   at Yuebon.Security.Services.ZYMService.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 43
+   at Yuebon.WebApi.Areas.Security.Controllers.ZYMController.GetProZYM() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\ZYMController.cs:line 47
+【13:17:53.373】  Error T17 
+抛出信息：获取 GetProZYM 异常 
+异常类型：RuntimeBinderException 
+异常信息：Cannot implicitly convert type 'object' to 'Yuebon.Security.Dtos.ZYMOutputDto'. An explicit conversion exists (are you missing a cast?) 
+堆栈调用：
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Yuebon.Security.Repositories.ZYMRepository.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\ZYMRepository.cs:line 42
+   at Yuebon.Security.Services.ZYMService.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 43
+   at Yuebon.WebApi.Areas.Security.Controllers.ZYMController.GetProZYM() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\ZYMController.cs:line 47
+【13:23:57.661】  Error T14 
+抛出信息：获取 GetProZYM 异常 
+异常类型：RuntimeBinderException 
+异常信息：Cannot implicitly convert type 'object' to 'Yuebon.Security.Dtos.ZYMOutputDto'. An explicit conversion exists (are you missing a cast?) 
+堆栈调用：
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Yuebon.Security.Repositories.ZYMRepository.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\zym\ZYMRepository.cs:line 43
+   at Yuebon.Security.Services.ZYMService.GetProZYM2() in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\zym\ZYMService.cs:line 43
+   at Yuebon.WebApi.Areas.Security.Controllers.ZYMController.GetProZYM() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Areas\zym\Controllers\ZYMController.cs:line 47
+【18:27:42.703】  Error T11 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=0456&vkey=202204131827277662&appId=system&systemCode=openauth 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.Commons.DbContextCore.BaseDbContext.MappingEntityTypes(ModelBuilder modelBuilder) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 160
+   at Yuebon.Commons.DbContextCore.BaseDbContext.OnModelCreating(ModelBuilder modelBuilder) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 135
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, ModelDependencies modelDependencies)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:32:36.960】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetCheckUser?username=admin&password=admin888&vcode=5046&vkey=202204131832257580&appId=system&systemCode=openauth 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.Commons.DbContextCore.BaseDbContext.MappingEntityTypes(ModelBuilder modelBuilder) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 160
+   at Yuebon.Commons.DbContextCore.BaseDbContext.OnModelCreating(ModelBuilder modelBuilder) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 135
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, ModelDependencies modelDependencies)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Yuebon.Commons.DbContextCore.BaseDbContext.Edit[T](T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\DbContextCore\BaseDbContext.cs:line 314
+   at Yuebon.Commons.Repositories.BaseRepository`2.Edit(T entity) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1690
+   at Yuebon.Security.Services.UserService.Validate(String userName, String password) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 103
+   at Yuebon.WebApi.Controllers.LoginController.GetCheckUser(String username, String password, String vcode, String vkey, String appId, String systemCode) in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 142
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

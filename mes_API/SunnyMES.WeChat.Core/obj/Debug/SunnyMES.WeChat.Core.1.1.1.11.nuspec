@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunnyMES.WeChat.Core</id>
+    <version>1.1.1.11</version>
+    <authors>Yuebon</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://gitee.com/yuebon/YuebonNetCore</projectUrl>
+    <description>YuebonNetCore 微信公众号、小程序、开放平台接口实现类库</description>
+    <copyright>SunnyMES有限公司 版权所有</copyright>
+    <repository type="git" url="https://gitee.com/yuebon/YuebonNetCore" commit="73fc19c4378a4d91f96e5cabde29a2cce8962b7a" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="SunnyMES.Commons" version="1.3.2.5" exclude="Build,Analyzers" />
+        <dependency id="Senparc.WebSocket" version="0.16.0" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin" version="6.14.0" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.Cache.Memcached" version="2.12.0" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.Cache.Redis" version="2.14.0" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.MP" version="16.17.1" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.Open" version="4.13.1" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.TenPay" version="1.11.0" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.WxOpen" version="3.14.1" exclude="Build,Analyzers" />
+        <dependency id="Senparc.Weixin.WxOpen.Middleware" version="0.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\admin\admin_mes_api\mes_API\SunnyMES.WeChat.Core\bin\Debug\net6.0\SunnyMES.WeChat.Core.runtimeconfig.json" target="lib\net6.0\SunnyMES.WeChat.Core.runtimeconfig.json" />
+    <file src="D:\admin\admin_mes_api\mes_API\SunnyMES.WeChat.Core\bin\Debug\net6.0\SunnyMES.WeChat.Core.dll" target="lib\net6.0\SunnyMES.WeChat.Core.dll" />
+    <file src="D:\admin\admin_mes_api\mes_API\LICENSE" target="LICENSE" />
+    <file src="D:\admin\admin_mes_api\mes_API\logo.png" target="logo.png" />
+  </files>
+</package>

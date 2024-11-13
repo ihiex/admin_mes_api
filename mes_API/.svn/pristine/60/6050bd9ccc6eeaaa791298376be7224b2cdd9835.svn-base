@@ -1,0 +1,13 @@
+【17:23:19.835】  Error T42 
+抛出信息：获取 mesLabel FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.InvalidCastException: Unable to cast object of type 'System.Data.ProviderBase.DbConnectionClosedConnecting' to type 'System.Data.SqlClient.SqlInternalConnectionTds'.
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 424 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 483
+   at Yuebon.Security.Services.SC_mesLabelService.FindWithPagerSearchAsync(SC_mesLabelSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String LabelFamilyID, String LabelFamily, String LabelType, String LabelTypeName, String TargetPath, String OutputType, String OutputTypeName, String PrintCMD, String SourcePath, String PageCapacity, String LabelFieldDefName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 343

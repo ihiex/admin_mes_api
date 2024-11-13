@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Yuebon.Messages.Core</id>
+    <version>1.1.5.10</version>
+    <authors>Yuebon</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://gitee.com/yuebon/YuebonNetCore</projectUrl>
+    <description>消息推送类库</description>
+    <releaseNotes>修复短信发送成功返回结果为false的bug</releaseNotes>
+    <copyright>上海越邦网络科技有限公司 版权所有</copyright>
+    <repository url="https://gitee.com/yuebon/YuebonNetCore" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Yuebon.Email.Core" version="1.0.3.1" exclude="Build,Analyzers" />
+        <dependency id="Yuebon.Security.Core" version="1.3.2.41" exclude="Build,Analyzers" />
+        <dependency id="Yuebon.SMS.Core" version="1.0.3.1" exclude="Build,Analyzers" />
+        <dependency id="Yuebon.WeChat.Core" version="1.1.1.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.Messages\Yuebon.Messages.Core\bin\Debug\net6.0\Yuebon.Messages.Core.runtimeconfig.json" target="lib\net6.0\Yuebon.Messages.Core.runtimeconfig.json" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.Messages\Yuebon.Messages.Core\bin\Debug\net6.0\Yuebon.Messages.Core.dll" target="lib\net6.0\Yuebon.Messages.Core.dll" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\logo.png" target="logo.png" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\LICENSE" target="LICENSE" />
+  </files>
+</package>

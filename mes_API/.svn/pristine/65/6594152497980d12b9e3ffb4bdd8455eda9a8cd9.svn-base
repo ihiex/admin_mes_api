@@ -1,0 +1,4 @@
+before-----
+{"ID":"3","Name":"SN","Description":"","Definition":"pst.PartNumber(0-5)Right(abcde,2)\"ABC\"DecToOct(Left(12345,3))"}
+after-----
+{"ID":"3","Name":"SN","Description":"qqqqq","Definition":"pst.PartNumber(0-5)Right(abcde,2)\"ABC\"DecToOct(Left(12345,3))"}

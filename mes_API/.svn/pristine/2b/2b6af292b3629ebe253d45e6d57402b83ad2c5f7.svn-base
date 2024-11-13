@@ -1,0 +1,101 @@
+【13:15:30.887】  Error T5 
+抛出信息：获取 GetPageInitialize 异常 
+异常类型：ArgumentOutOfRangeException 
+异常信息：Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') 
+堆栈调用：
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Yuebon.Security.Repositories.OverStationRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\MES\OverStationRepository.cs:line 87
+   at Yuebon.Security.Services.OverStationServices.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\MES\OverStationServices.cs:line 33
+   at Yuebon.WebApi.Areas.Security.Controllers.OverStationController.GetPageInitialize(String S_URL) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\MES\Controllers\OverStationController.cs:line 186
+【13:18:24.936】  Error T45 
+抛出信息：获取 MesGetStation 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is open. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicRepository.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 887
+   at Yuebon.Security.Services.PublicService.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicService.cs:line 54
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicController.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Public\PublicController.cs:line 228
+【13:36:53.292】  Error T5 
+抛出信息：获取 MesGetStation 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is connecting. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicRepository.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 887
+   at Yuebon.Security.Services.PublicService.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicService.cs:line 54
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicController.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Public\PublicController.cs:line 228
+【13:36:53.292】  Error T8 
+抛出信息：获取 MesGetStation 异常 
+异常类型：TaskCanceledException 
+异常信息：A task was canceled. 
+堆栈调用：
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicRepository.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 887
+   at Yuebon.Security.Services.PublicService.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicService.cs:line 54
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicController.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Public\PublicController.cs:line 228
+【13:36:53.292】  Error T25 
+抛出信息：获取 MesGetStation 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is connecting. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicRepository.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicRepository.cs:line 887
+   at Yuebon.Security.Services.PublicService.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicService.cs:line 54
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicController.MesGetStation(String ID, String LineID, String StationTypeID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Public\PublicController.cs:line 228
+【13:43:46.615】  Error T45 
+抛出信息： 
+异常类型：SqlException 
+异常信息：不能将值 NULL 插入列 'ID'，表 'AMS.dbo.mesUnit'；列不允许有 Null 值。INSERT 失败。
+不能将值 NULL 插入列 'UnitID'，表 'AMS.dbo.mesUnitDetail'；列不允许有 Null 值。INSERT 失败。
+不能将值 NULL 插入列 'UnitID'，表 'AMS.dbo.mesSerialNumber'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+语句已终止。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepositoryReport`1.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout, Nullable`1 I_MaxID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepositoryReport.cs:line 346
+【13:45:45.668】  Error T39 
+抛出信息： 
+异常类型：SqlException 
+异常信息：不能将值 NULL 插入列 'ID'，表 'AMS.dbo.mesUnit'；列不允许有 Null 值。INSERT 失败。
+不能将值 NULL 插入列 'UnitID'，表 'AMS.dbo.mesUnitDetail'；列不允许有 Null 值。INSERT 失败。
+不能将值 NULL 插入列 'UnitID'，表 'AMS.dbo.mesSerialNumber'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+语句已终止。
+语句已终止。 
+堆栈调用：
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 319
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Yuebon.Commons.Repositories.BaseRepositoryReport`1.ExecuteTransactionAsync(List`1 trans, Nullable`1 commandTimeout, Nullable`1 I_MaxID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepositoryReport.cs:line 346

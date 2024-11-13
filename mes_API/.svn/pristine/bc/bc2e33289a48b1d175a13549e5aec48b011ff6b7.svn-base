@@ -1,0 +1,36 @@
+【09:22:10.813】  Error T5 
+抛出信息：获取 Delete 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 76
+   at Yuebon.Security.Services.SC_mesSNFormatService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.Delete(String Id) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 144
+【16:57:47.537】  Error T8 
+抛出信息：获取 UpdateDetail 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesSNFormatRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\SN\SC_mesSNFormatRepository.cs:line 76
+   at Yuebon.Security.Services.SC_mesSNFormatService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\SN\SC_mesSNFormatService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesSNFormatController.UpdateDetail(SC_mesSNSectionEdit v_DetailDto) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\SN\SC_SNFormatController.cs:line 475
+【17:31:37.061】  Error T37 
+抛出信息：获取 GetCom_o 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is open. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicSCRepository.GetCom_o() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 445
+   at Yuebon.Security.Services.PublicSCService.GetCom_o() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 150
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetCom_o() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 1390

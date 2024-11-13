@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("SunnyMES有限公司 版权所有")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("邮件发送")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3.1+a92ec0567356a159f5175e7018538c5513bdff72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3.1+73fc19c4378a4d91f96e5cabde29a2cce8962b7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunnyMES.Email.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunnyMES.Email.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.1")]

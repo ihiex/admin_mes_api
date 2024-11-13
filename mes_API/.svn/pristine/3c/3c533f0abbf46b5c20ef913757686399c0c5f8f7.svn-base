@@ -1,0 +1,509 @@
+【08:51:33.298】  Error T19 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【08:51:54.426】  Error T10 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【09:25:27.666】  Error T9 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【09:26:35.509】  Error T9 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【09:29:09.041】  Error T9 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【09:46:31.718】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method28(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:45:45.958】  Error T28 
+抛出信息：验证token异常 
+异常类型：ArgumentException 
+异常信息：IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+堆栈调用：
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 93
+【13:35:43.806】  Error T10 
+抛出信息：验证token异常 SecurityTokenExpiredException 
+异常类型：SecurityTokenExpiredException 
+异常信息：IDX10223: Lifetime validation failed. The token is expired. ValidTo: '2022-04-06 05:25:47', Current time: '2022-04-06 05:35:43'. 
+堆栈调用：
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Yuebon.AspNetCore.Mvc.TokenProvider.ValidateToken(String token) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\TokenProvider.cs:line 107
+【14:25:38.152】  Error T9 
+抛出信息： 
+异常类型：UnauthorizedAccessException 
+异常信息：Access to the path 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen' is denied. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:25:40.830】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:25:45.368】  Error T9 
+抛出信息： 
+异常类型：UnauthorizedAccessException 
+异常信息：Access to the path 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen' is denied. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:25:46.970】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method13(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:26:06.158】  Error T13 
+抛出信息： 
+异常类型：UnauthorizedAccessException 
+异常信息：Access to the path 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen' is denied. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【14:38:01.734】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:38:09.927】  Error T14 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:51:56.280】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【14:52:57.347】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:20:23.273】  Error T14 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【16:20:28.141】  Error T14 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:51:51.706】  Error T3 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:51:56.301】  Error T15 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【17:55:09.260】  Error T3 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【17:56:07.731】  Error T15 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【17:57:59.301】  Error T3 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:00:50.492】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:00:55.308】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:01:32.521】  Error T10 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:01:51.166】  Error T15 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:02:02.885】  Error T9 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:03:16.723】  Error T25 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:05:05.613】  Error T10 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/GetUserInfo 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at Yuebon.WebApi.Controllers.LoginController.GetUserInfo() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 226
+   at lambda_method10(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:05:10.295】  Error T9 
+抛出信息：全局捕获程序运行异常信息
+/api/Login/Logout 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Controllers.LoginController.Logout() in D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\Controllers\LoginController.cs:line 437
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【18:09:40.223】  Error T26 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:10:05.614】  Error T9 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:10:10.649】  Error T40 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:10:37.308】  Error T29 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:10:56.494】  Error T34 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:13:09.028】  Error T33 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
+【18:14:02.888】  Error T36 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88

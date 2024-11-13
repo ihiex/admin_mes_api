@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Yuebon.Tenants.Core</id>
+    <version>1.0.0</version>
+    <authors>Yuebon</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Yuebon.Commons" version="1.3.2.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.Tenants.Core\bin\Debug\net6.0\Yuebon.Tenants.Core.runtimeconfig.json" target="lib\net6.0\Yuebon.Tenants.Core.runtimeconfig.json" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.Tenants.Core\bin\Debug\net6.0\Yuebon.Tenants.Core.dll" target="lib\net6.0\Yuebon.Tenants.Core.dll" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\LICENSE" target="LICENSE" />
+    <file src="D:\Code\VUE\SFC_DB_API_+XiaoDong\logo.png" target="logo.png" />
+  </files>
+</package>

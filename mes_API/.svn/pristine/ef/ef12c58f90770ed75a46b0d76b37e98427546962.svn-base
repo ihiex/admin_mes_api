@@ -1,0 +1,5 @@
+before-----
+{"ID":"2351","SNFormatID":"1347","SectionType":"4","SectionParam":"nnnn","Increment":"1","InvalidChar":"","Order":"5"}
+{}
+after-----
+{"ID":"2351","SNFormatID":"1347","SectionTypeID":"4","SectionParam":"nnn","Increment":"1","InvalidChar":"1","LastUsed":"","Order":"5","AllowReset":false,"SNRange":{"ID":"","SNSectionID":"","Start":"000","End":"999","Order":"1","StatusID":"1"}}

@@ -1,0 +1,59 @@
+【08:45:17.106】  Error T45 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Update 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.OnBeforeUpdate(User info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.UpdateAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 260
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【11:35:53.833】  Error T42 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/FindWithPagerSearchAsync 
+异常类型：InvalidOperationException 
+异常信息：The ConnectionString property has not been initialized. 
+【堆栈调用】：
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StackExchange.Profiling.Data.ProfiledDbConnection.Open() in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 121
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1093
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 734
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Extensions\SqlMapperExtensions.cs:line 216
+   at Yuebon.Commons.Repositories.BaseRepository`2.Get(TKey primaryKey) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Repositories\BaseRepository.cs:line 1918
+   at Yuebon.Commons.Services.BaseService`3.Get(TKey id) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Commons\Core\Services\BaseService.cs:line 180
+   at Yuebon.Security.Services.UserService.FindWithPagerSearchAsync(SearchUserModel search, YuebonCurrentUser Current_User) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\System\UserService.cs:line 548
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.FindWithPagerSearchAsync(SearchUserModel search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 350
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+【13:57:50.217】  Error T139 
+抛出信息：全局捕获程序运行异常信息
+/api/Security/User/Update 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+【堆栈调用】：
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.OnBeforeUpdate(User info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.UserController.UpdateAsync(UserInputDto tinfo) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\Areas\Security\Controllers\UserController.cs:line 260
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

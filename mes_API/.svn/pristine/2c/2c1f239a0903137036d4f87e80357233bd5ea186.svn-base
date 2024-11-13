@@ -1,0 +1,255 @@
+【16:12:01.558】  Error T8 
+抛出信息：获取 mesLabel FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 列名 'LabelFamily' 无效。
+列名 'Name' 无效。
+列名 'LabelFamily' 无效。
+列名 'LabelTypeName' 无效。
+列名 'OutputTypeName' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 389
+ClientConnectionId:5a4eca0d-c896-41c9-8ba0-84a21626ff95
+Error Number:207,State:1,Class:16 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 446
+   at Yuebon.Security.Services.SC_mesLabelService.FindWithPagerSearchAsync(SC_mesLabelSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String LabelFamilyID, String LabelFamily, String LabelType, String LabelTypeName, String TargetPath, String OutputType, String OutputTypeName, String PrintCMD, String SourcePath, String PageCapacity, String LabelFieldDefName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 343
+【16:27:27.269】  Error T8 
+抛出信息：获取 mesLabel FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 426
+ClientConnectionId:57b9bdd9-71ab-410e-9626-ca8d24a4914a
+Error Number:102,State:1,Class:15 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.FindWithPagerMyAsync(SC_mesLabelSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 444
+   at Yuebon.Security.Services.SC_mesLabelService.FindWithPagerSearchAsync(SC_mesLabelSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String LabelFamilyID, String LabelFamily, String LabelType, String LabelTypeName, String TargetPath, String OutputType, String OutputTypeName, String PrintCMD, String SourcePath, String PageCapacity, String LabelFieldDefName) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 343
+【17:02:03.756】  Error T22 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:02:27.318】  Error T29 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:02:40.417】  Error T40 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:03:01.318】  Error T40 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:04:38.954】  Error T8 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:05:14.884】  Error T8 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:05:16.621】  Error T34 
+抛出信息：获取 mesLabel Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelController.Insert(SC_mesLabel v_SC_mesLabel) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_mesLabelController.cs:line 96
+【17:13:20.937】  Error T8 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_IdNameDescRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Public\SC_IdNameDescRepository.cs:line 74
+   at Yuebon.Security.Services.SC_IdNameDescService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Public\SC_IdNameDescService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_LabelFamilyController.Insert(SC_IdNameDesc v_SC_IdNameDescDto) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\SC_LabelFamilyController.cs:line 96
+【17:18:05.515】  Error T22 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): 在应使用条件的上下文(在 'Definition' 附近)中指定了非布尔类型的表达式。
+在 FETCH 语句中选项 next 的用法无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 312
+ClientConnectionId:15055b38-0113-4767-98c8-496ba978ae9b
+Error Number:4145,State:1,Class:15 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 327
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String Definition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 312
+【17:23:53.182】  Error T5 
+抛出信息：获取 mesline FindWithPagerSearchAsync 异常 
+异常类型：Exception 
+异常信息：System.Data.SqlClient.SqlException (0x80131904): “%%”附近有语法错误。
+在 FETCH 语句中选项 next 的用法无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbCommand.cs:line 257
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 312
+ClientConnectionId:ba6dbcc1-0cd5-481b-af06-050ad582222d
+Error Number:102,State:1,Class:15 
+堆栈调用：
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search, PagerInfo info) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 327
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.FindWithPagerMyAsync(SC_mesLabelFieldDefinitionSearch search) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 78
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.FindWithPagerSearchAsync(Int32 CurrentPageIndex, Int32 PageSize, String LikeQuery, String ID, String Name, String Description, String Definition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 312
+【17:28:38.213】  Error T40 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.Insert(SC_mesLabelFieldDefinition v_SC_mesLabelFieldDefinition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 96
+【17:29:01.622】  Error T24 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.Insert(SC_mesLabelFieldDefinition v_SC_mesLabelFieldDefinition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 96
+【17:31:43.768】  Error T5 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.Insert(SC_mesLabelFieldDefinition v_SC_mesLabelFieldDefinition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 96
+【17:32:27.242】  Error T5 
+抛出信息：获取 Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesLabelFieldDefinitionRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\Label\SC_mesLabelFieldDefinitionRepository.cs:line 75
+   at Yuebon.Security.Services.SC_mesLabelFieldDefinitionService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\Label\SC_mesLabelFieldDefinitionService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesLabelFieldDefinitionController.Insert(SC_mesLabelFieldDefinition v_SC_mesLabelFieldDefinition) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Label\mesLabelFieldDefinitionController.cs:line 96
+【17:36:51.402】  Error T8 
+抛出信息：获取 GetVModuleName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=pst - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize9474d3d9-93d4-41dd-95fd-b00297a075f6(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 232
+   at Yuebon.Security.Services.PublicSCService.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 92
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 973
+【17:41:35.369】  Error T22 
+抛出信息：获取 GetVModuleName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=pst - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserializeb0824544-5257-40db-91ae-7133860e902f(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 232
+   at Yuebon.Security.Services.PublicSCService.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 92
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 973
+【17:41:41.074】  Error T31 
+抛出信息：获取 GetVModuleName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=pst - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserializeb0824544-5257-40db-91ae-7133860e902f(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 232
+   at Yuebon.Security.Services.PublicSCService.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 92
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetVModuleName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 973

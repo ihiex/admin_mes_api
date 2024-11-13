@@ -1,0 +1,135 @@
+【09:33:21.375】  Error T47 
+抛出信息：获取 mesStation Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationRepository.cs:line 74
+   at Yuebon.Security.Services.SC_mesStationService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationController.Insert(SC_mesStation v_SC_mesStation) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationController.cs:line 95
+【09:33:45.218】  Error T28 
+抛出信息：获取 mesStation Insert 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationRepository.cs:line 74
+   at Yuebon.Security.Services.SC_mesStationService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationController.Insert(SC_mesStation v_SC_mesStation) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationController.cs:line 95
+【10:36:41.237】  Error T22 
+抛出信息：获取 mesStationType Clone 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Clone(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 237
+【10:37:17.992】  Error T31 
+抛出信息：获取 mesStationType Clone 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Clone(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 237
+【10:38:10.002】  Error T33 
+抛出信息：获取 mesStationType Clone 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Clone(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 237
+【10:38:50.514】  Error T39 
+抛出信息：获取 mesStationType Clone 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Clone(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 237
+【10:38:51.812】  Error T41 
+抛出信息：获取 mesStationType Clone 异常 
+异常类型：InvalidOperationException 
+异常信息：Sequence contains no elements 
+堆栈调用：
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 487
+   at Yuebon.Security.Repositories.SC_mesStationTypeRepository.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\4-Repositories\LineAndStation\SC_mesStationTypeRepository.cs:line 73
+   at Yuebon.Security.Services.SC_mesStationTypeService.GetConfInfo(Int32 I_Language, Int32 I_LineID, Int32 I_StationID, Int32 I_EmployeeID, String S_CurrentLoginIP) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\SysConfig\6-Services\LineAndStation\SC_mesStationTypeService.cs:line 40
+   at Yuebon.WebApi.Areas.Security.Controllers.SC_mesStationTypeController.Clone(SC_mesStationType v_SC_mesStationType) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\LineAndStation\SC_mesStationTypeController.cs:line 237
+【11:28:13.990】  Error T39 
+抛出信息：获取 GetluStationTypeDetailDef 异常 
+异常类型：InvalidOperationException 
+异常信息：The connection was not closed. The connection's current state is open. 
+堆栈调用：
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at StackExchange.Profiling.Data.ProfiledDbConnection.OpenAsync(CancellationToken cancellationToken) in C:\projects\dotnet\src\MiniProfiler.Shared\Data\ProfiledDbConnection.cs:line 140
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 417
+   at Yuebon.Security.Repositories.PublicSCRepository.GetIdDescription(String TableName, String ID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 60
+   at Yuebon.Security.Services.PublicSCService.GetIdDescription(String TableName, String ID) in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 33
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetluStationTypeDetailDef() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 1084
+【17:16:30.580】  Error T29 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize53f4b85b-eff7-4028-9372-897681b08bda(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【17:16:30.776】  Error T8 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize53f4b85b-eff7-4028-9372-897681b08bda(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【17:16:53.847】  Error T34 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize53f4b85b-eff7-4028-9372-897681b08bda(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【17:16:54.405】  Error T32 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize53f4b85b-eff7-4028-9372-897681b08bda(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586

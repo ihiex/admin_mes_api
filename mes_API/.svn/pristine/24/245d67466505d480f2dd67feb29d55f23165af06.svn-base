@@ -1,0 +1,77 @@
+【10:52:15.176】  Error T34 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize167db3db-716a-4052-b739-06aa53b158ac(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【10:52:15.731】  Error T40 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize167db3db-716a-4052-b739-06aa53b158ac(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【13:33:08.639】  Error T43 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize4adb59ab-f772-4b23-8203-c07e619fc369(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【13:33:09.208】  Error T5 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize4adb59ab-f772-4b23-8203-c07e619fc369(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【13:33:25.809】  Error T43 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize4adb59ab-f772-4b23-8203-c07e619fc369(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【13:33:26.480】  Error T38 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize4adb59ab-f772-4b23-8203-c07e619fc369(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586
+【13:34:55.687】  Error T44 
+抛出信息：获取 GetLineGroupName 异常 
+异常类型：DataException 
+异常信息：Error parsing column 0 (ID=M - String) 
+堆栈调用：
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3706
+   at Deserialize4adb59ab-f772-4b23-8203-c07e619fc369(IDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 438
+   at Yuebon.Security.Repositories.PublicSCRepository.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\4-Repositories\Public\PublicSCRepository.cs:line 200
+   at Yuebon.Security.Services.PublicSCService.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.NetCore\Yuebon.Security.Core\6-Services\Public\PublicSCService.cs:line 74
+   at Yuebon.WebApi.Areas.Security.Controllers.PublicSCController.GetLineGroupName() in D:\Code\VUE\SFC_DB_API_+XiaoDong\Yuebon.WebApi\SysConfig\Public\PublicSCController.cs:line 586

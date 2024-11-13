@@ -1,0 +1,12 @@
+【11:07:44.736】  Error T19 
+抛出信息： 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\Code_Vue\YuebonNetCore-master\Yuebon.WebApi\ToKen\ToKen.txt' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Yuebon.AspNetCore.Controllers.ApiController.OnActionExecuting(ActionExecutingContext context) in D:\Code_Vue\YuebonNetCore-master\Yuebon.NetCore\Yuebon.AspNetCore\Mvc\ApiController.cs:line 88
