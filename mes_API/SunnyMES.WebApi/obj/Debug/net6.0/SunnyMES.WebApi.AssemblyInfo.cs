@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunnyMES.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73fc19c4378a4d91f96e5cabde29a2cce8962b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee2235aa4e91dd65161ffdc76f9b8db5804fe325")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunnyMES.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunnyMES.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

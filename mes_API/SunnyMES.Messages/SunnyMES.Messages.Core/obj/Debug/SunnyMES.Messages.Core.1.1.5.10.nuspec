@@ -12,7 +12,7 @@
     <description>消息推送类库</description>
     <releaseNotes>修复短信发送成功返回结果为false的bug</releaseNotes>
     <copyright>SunnyMES有限公司 版权所有</copyright>
-    <repository type="git" url="https://gitee.com/yuebon/YuebonNetCore" commit="73fc19c4378a4d91f96e5cabde29a2cce8962b7a" />
+    <repository type="git" url="https://gitee.com/yuebon/YuebonNetCore" commit="ee2235aa4e91dd65161ffdc76f9b8db5804fe325" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="SunnyMES.Email.Core" version="1.0.3.1" exclude="Build,Analyzers" />

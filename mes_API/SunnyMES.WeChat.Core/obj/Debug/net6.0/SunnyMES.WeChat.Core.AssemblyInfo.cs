@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("SunnyMES有限公司 版权所有")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("YuebonNetCore 微信公众号、小程序、开放平台接口实现类库")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.1.11")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.1.11+73fc19c4378a4d91f96e5cabde29a2cce8962b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.1.11+ee2235aa4e91dd65161ffdc76f9b8db5804fe325")]
 [assembly: System.Reflection.AssemblyProductAttribute("YuebonNetCore 微信开放接口类库")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunnyMES.WeChat.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.1.11")]

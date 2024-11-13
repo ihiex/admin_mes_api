@@ -9,7 +9,7 @@
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>logo.png</icon>
     <description>Package Description</description>
-    <repository type="git" commit="73fc19c4378a4d91f96e5cabde29a2cce8962b7a" />
+    <repository type="git" commit="ee2235aa4e91dd65161ffdc76f9b8db5804fe325" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="SunnyMES.Commons" version="1.3.2.5" exclude="Build,Analyzers" />

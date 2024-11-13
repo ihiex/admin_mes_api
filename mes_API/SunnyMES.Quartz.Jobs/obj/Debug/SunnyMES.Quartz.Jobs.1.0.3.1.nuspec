@@ -10,7 +10,7 @@
     <projectUrl>https://gitee.com/yuebon/YuebonNetCore</projectUrl>
     <description>YuebonNetCore开发框架定时处理库</description>
     <copyright>SunnyMES有限公司</copyright>
-    <repository type="git" url="https://gitee.com/yuebon/YuebonNetCore" commit="73fc19c4378a4d91f96e5cabde29a2cce8962b7a" />
+    <repository type="git" url="https://gitee.com/yuebon/YuebonNetCore" commit="ee2235aa4e91dd65161ffdc76f9b8db5804fe325" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="SunnyMES.Email.Core" version="1.0.3.1" exclude="Build,Analyzers" />
