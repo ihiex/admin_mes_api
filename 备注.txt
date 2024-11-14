@@ -15,7 +15,8 @@ SetSyncUserData()
 隐藏在按钮中 getSystemInit()
 
 
-
+数据库连接加解密
+\SunnyMES.NetCore\SunnyMES.Commons\Core\DataManager\SFCEncode.cs
 
 
 
