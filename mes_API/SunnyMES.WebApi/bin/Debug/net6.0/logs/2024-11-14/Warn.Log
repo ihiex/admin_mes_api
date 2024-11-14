@@ -1,0 +1,40 @@
+[09:09:54.811] Warn T6 方法名称：MoveNext
+日志内容：2024-11-14 09:09
+D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll
+D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data2.dll
+System.IO.FileNotFoundException: Could not find file 'D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll'.
+File name: 'D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at SunnyMES.Security.Repositories.UserRepository.ValidateSecond(String UserID, String PWD) in D:\admin\admin_mes_api\mes_API\SunnyMES.NetCore\SunnyMES.Security.Core\4-Repositories\System\UserRepository.cs:line 314
+[09:10:08.195] Warn T43 方法名称：MoveNext
+日志内容：2024-11-14 09:10
+D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll
+D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data2.dll
+System.IO.FileNotFoundException: Could not find file 'D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll'.
+File name: 'D:\admin\admin_mes_api\mes_API\SunnyMES.WebApi\Data1.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at SunnyMES.Security.Repositories.UserRepository.ValidateSecond(String UserID, String PWD) in D:\admin\admin_mes_api\mes_API\SunnyMES.NetCore\SunnyMES.Security.Core\4-Repositories\System\UserRepository.cs:line 314
+[09:29:53.375] Warn T23 方法名称：GetUserInfo
+日志内容：2024-11-14 09:29user.Id:116    S_Data1_ID:
+user.UserID:developer    S_Data1_UserID:
+user.Lastname:developer    S_Data1_Lastname:
+user.Firstname:developer    S_Data1_Firstname:
+user.OrganizeId:2020101619434422287774    S_Data1_OrganizeId:
+user.DepartmentId:2020101619434422287774    S_Data1_DepartmentId:
+user.RoleId:F0A2B36F-35A7-4660-B46C-D4AB796591EB    S_Data1_RoleId:
+user.IsAdministrator:True    S_Data1_IsAdministrator:
+user.UserType:    S_Data1_UserType:

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("SunnyMES有限公司 版权所有")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("消息推送类库")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.5.10")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.5.10+ee2235aa4e91dd65161ffdc76f9b8db5804fe325")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.5.10+aee505573b077a6297802db8ebe28855d13c62bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("YuebonNetCore开发框架基础库")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunnyMES.Messages.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.5.10")]

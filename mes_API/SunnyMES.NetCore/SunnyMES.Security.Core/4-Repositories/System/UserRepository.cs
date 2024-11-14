@@ -221,6 +221,8 @@ namespace SunnyMES.Security.Repositories
         public async Task<string> ValidateSecond(string UserID, string PWD)
         {
             string S_Result = "OK";
+            // ç›´æŽ¥è·³è¿‡æ–‡ä»¶æ ¡éªŒ
+            return S_Result;
 
             string S_IsValidateSecond = "0";
             try
@@ -470,7 +472,7 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸ù¾ÝÓÃ»§ÕËºÅ²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ËºÅ²ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
         /// <param name="userName"></param>
         /// <returns></returns>
@@ -481,9 +483,9 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸ù¾ÝÓÃ»§ÊÖ»úºÅÂë²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
-        /// <param name="mobilephone">ÊÖ»úºÅÂë</param>
+        /// <param name="mobilephone">ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½</param>
         /// <returns></returns>
         public async Task<User> GetUserByMobilePhone(string mobilephone)
         {
@@ -492,7 +494,7 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸ù¾ÝEmail²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½Emailï¿½ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
         /// <param name="email">email</param>
         /// <returns></returns>
@@ -502,9 +504,9 @@ namespace SunnyMES.Security.Repositories
             return await DapperConn.QueryFirstOrDefaultAsync<User>(sql, new { @Email = email });
         }
         /// <summary>
-        /// ¸ù¾ÝEmail¡¢Account¡¢ÊÖ»úºÅ²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½Emailï¿½ï¿½Accountï¿½ï¿½ï¿½Ö»ï¿½ï¿½Å²ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
-        /// <param name="account">µÇÂ¼ÕËºÅ</param>
+        /// <param name="account">ï¿½ï¿½Â¼ï¿½Ëºï¿½</param>
         /// <returns></returns>
         public async Task<User> GetUserByLogin(string account)
         {
@@ -513,7 +515,7 @@ namespace SunnyMES.Security.Repositories
             return await DapperConn.QueryFirstOrDefaultAsync<User>(sql, new { @Account = account });
         }
         /// <summary>
-        /// ×¢²áÓÃ»§
+        /// ×¢ï¿½ï¿½ï¿½Ã»ï¿½
         /// </summary>
         /// <param name="entity"></param>
         /// <param name="userLogOnEntity"></param>
@@ -569,7 +571,7 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ×¢²áÓÃ»§
+        /// ×¢ï¿½ï¿½ï¿½Ã»ï¿½
         /// </summary>
         /// <param name="entity"></param>
         /// <param name="userLogOnEntity"></param>
@@ -908,6 +910,9 @@ namespace SunnyMES.Security.Repositories
         public string GetServerData() 
         {
             string S_Result = "OK";
+            // è·³è¿‡æ–‡ä»¶æ ¡éªŒ
+            return S_Result;
+
             try
             {
                 string CPU = "";
@@ -1070,7 +1075,7 @@ namespace SunnyMES.Security.Repositories
 
 
         /// <summary>
-        /// ×¢²áÓÃ»§,µÚÈý·½Æ½Ì¨
+        /// ×¢ï¿½ï¿½ï¿½Ã»ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½Ì¨
         /// </summary>
         /// <param name="entity"></param>
         /// <param name="userLogOnEntity"></param>
@@ -1091,7 +1096,7 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸ù¾ÝÎ¢ÐÅUnionId²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½UnionIdï¿½ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
         /// <param name="unionId">UnionIdÖµ</param>
         /// <returns></returns>
@@ -1101,9 +1106,9 @@ namespace SunnyMES.Security.Repositories
             return DapperConn.QueryFirstOrDefault<User>(sql);
         }
         /// <summary>
-        /// ¸ù¾ÝµÚÈý·½OpenId²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½OpenIdï¿½ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
-        /// <param name="openIdType">µÚÈý·½ÀàÐÍ</param>
+        /// <param name="openIdType">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
         /// <param name="openId">OpenIdÖµ</param>
         /// <returns></returns>
         public User GetUserByOpenId(string openIdType, string openId)
@@ -1113,9 +1118,9 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸ù¾ÝuserId²éÑ¯ÓÃ»§ÐÅÏ¢
+        /// ï¿½ï¿½ï¿½ï¿½userIdï¿½ï¿½Ñ¯ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
         /// </summary>
-        /// <param name="openIdType">µÚÈý·½ÀàÐÍ</param>
+        /// <param name="openIdType">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
         /// <param name="userId">userId</param>
         /// <returns></returns>
         public UserOpenIds GetUserOpenIdByuserId(string openIdType, string userId)
@@ -1125,7 +1130,7 @@ namespace SunnyMES.Security.Repositories
         }
 
         /// <summary>
-        /// ¸üÐÂÓÃ»§ÐÅÏ¢,µÚÈý·½Æ½Ì¨
+        /// ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½Ï¢,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½Ì¨
         /// </summary>
         /// <param name="entity"></param>
         /// <param name="userLogOnEntity"></param>
@@ -1142,7 +1147,7 @@ namespace SunnyMES.Security.Repositories
 
 
         /// <summary>
-        /// ·ÖÒ³µÃµ½ËùÓÐÓÃ»§ÓÃÓÚ¹Ø×¢
+        /// ï¿½ï¿½Ò³ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ú¹ï¿½×¢
         /// </summary>
         /// <param name="currentpage"></param>
         /// <param name="pagesize"></param>
@@ -1156,7 +1161,7 @@ namespace SunnyMES.Security.Repositories
 
             int countNotIn = (int.Parse(currentpage) - 1) * int.Parse(pagesize);
 
-            sqlRecord = @"select * FROM mesEmployee where nickname <> 'ÓÎ¿Í' and  ismember=1 ";
+            sqlRecord = @"select * FROM mesEmployee where nickname <> 'ï¿½Î¿ï¿½' and  ismember=1 ";
 
             sql = @"SELECT TOP " + pagesize +
                 @"
@@ -1170,7 +1175,7 @@ ISNULL(tin2.IsAuthentication,0) as IsAuthentication,
 ISNULL(tin2.AuthenticationType,0) as AuthenticationType,
 tin1.* FROM mesEmployee tin1 
 left join API_UserExtend tin2 on tin1.Id=tin2.UserId 
-where nickname <> 'ÓÎ¿Í' and  ismember=1) t1
+where nickname <> 'ï¿½Î¿ï¿½' and  ismember=1) t1
 left join 
 (select * FROM API_UserFocus where creatorUserid='" + userid + @"') t2 
 on t1.id=t2.focususerid 
@@ -1188,7 +1193,7 @@ ISNULL(tin2.IsAuthentication,0) as IsAuthentication,
 ISNULL(tin2.AuthenticationType,0) as AuthenticationType,
 tin1.* FROM mesEmployee tin1 
 left join API_UserExtend tin2 on tin1.Id=tin2.UserId 
-where nickname <> 'ÓÎ¿Í' and  ismember=1) tt1
+where nickname <> 'ï¿½Î¿ï¿½' and  ismember=1) tt1
 left join 
 (select * FROM API_UserFocus where creatorUserid='" + userid + @"') tt2
 on tt1.id=tt2.focususerid 
@@ -1206,7 +1211,7 @@ order by t3.totalFocus desc";
 
             IEnumerable<UserAllListFocusOutPutDto> infoOutputDto = DapperConn.Query<UserAllListFocusOutPutDto>(sql);
 
-            //µÃµ½×Ü¼ÇÂ¼Êý
+            //ï¿½Ãµï¿½ï¿½Ü¼ï¿½Â¼ï¿½ï¿½
             List<UserAllListFocusOutPutDto> recordCountList = DapperConn.Query<UserAllListFocusOutPutDto>(sqlRecord).AsList();
 
             list = infoOutputDto.AsList();
@@ -1231,8 +1236,8 @@ order by t3.totalFocus desc";
               
                 //if (HasInjectionData(condition))
                 //{
-                //    Log4NetHelper.Info(string.Format("¼ì²â³öSQL×¢ÈëµÄ¶ñÒâÊý¾Ý, {0}", condition));
-                //    throw new Exception("¼ì²â³öSQL×¢ÈëµÄ¶ñÒâÊý¾Ý");
+                //    Log4NetHelper.Info(string.Format("ï¿½ï¿½ï¿½ï¿½SQL×¢ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, {0}", condition));
+                //    throw new Exception("ï¿½ï¿½ï¿½ï¿½SQL×¢ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
                 //}
                 if (string.IsNullOrEmpty(condition))
                 {

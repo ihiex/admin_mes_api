@@ -1,0 +1,20 @@
+去除生成文件校验：生成目录在 \SunnyMES.WebApi\Data1.dll ;
+换电脑或服务器登录时会提示：                        return S_Result = "secondary verification account is invalid.";
+文件路径：\SunnyMES.NetCore\SunnyMES.Security.Core\4-Repositories\System\UserRepository.cs  --》ValidateSecond
+查找： \\Data1.dll 或 secondary verification account is invalid.
+
+第二个文件校验：获取用户信息时getUserInfo:    ERROR:Server verification data does not exist
+位置：\SunnyMES.NetCore\SunnyMES.Security.Core\4-Repositories\System\UserRepository.cs --》GetServerData
+
+data*.dll文件 已处理都可删除
+
+
+
+
+
+
+
+
+
+
+
