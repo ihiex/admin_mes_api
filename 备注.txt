@@ -8,8 +8,11 @@
 
 data*.dll文件 已处理都可删除
 
-
-
+生成data*.dll方法：
+SetData1_2()
+SetSyncUserData()
+前端页隐藏在 roleManagement/index.vue  --》SetSyncUserData
+隐藏在按钮中 getSystemInit()
 
 
 
